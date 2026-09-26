@@ -1,7 +1,7 @@
 // src/components/common/CircularProfileImage.jsx
-import React, { useRef, useState } from 'react';
-import PropTypes from 'prop-types';
-import { FaUserMd } from 'react-icons/fa';
+import React, { useRef, useState } from "react";
+import PropTypes from "prop-types";
+import { FaUserMd } from "react-icons/fa";
 
 const CircularProfileImage = ({
   name,

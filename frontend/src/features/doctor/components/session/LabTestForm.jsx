@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { FaTimes, FaFlask, FaPlus, FaTrash } from 'react-icons/fa';
+import { useState } from "react";
+import { FaTimes, FaFlask, FaPlus, FaTrash } from "react-icons/fa";
 
 /**
  * Lab Test Form Modal

@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { useSessionStore } from '../stores/sessionStore';
+import { useEffect } from "react";
+import { useSessionStore } from "../stores/sessionStore";
 
 /**
  * Custom hook for session management

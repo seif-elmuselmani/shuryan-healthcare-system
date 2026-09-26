@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
-import { User, Stethoscope, Pill, FlaskConical, Heart, ChevronRight } from 'lucide-react';
-import { useAuthStore } from '../store/authStore';
-import authService from '@/api/services/auth.service';
+import React, { useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import { User, Stethoscope, Pill, FlaskConical, Heart, ChevronRight } from "lucide-react";
+import { useAuthStore } from "../store/authStore";
+import authService from "@/api/services/auth.service";
 
 const UserTypeSelectionPage = () => {
   const [selectedType, setSelectedType] = useState(null);

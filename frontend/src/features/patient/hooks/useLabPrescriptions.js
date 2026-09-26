@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import useLabPrescriptionsStore from '../stores/labPrescriptionsStore';
+import { useEffect } from "react";
+import useLabPrescriptionsStore from "../stores/labPrescriptionsStore";
 
 /**
  * Custom hook for lab prescriptions

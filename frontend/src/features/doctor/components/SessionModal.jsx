@@ -1,13 +1,13 @@
-import { useEffect, useState, useRef } from 'react';
-import { useSession } from '../hooks/useSession';
-import { useSessionManager } from '../hooks/useSessionManager';
-import useAuth from '../../auth/hooks/useAuth';
-import SessionHeader from './session/SessionHeader';
-import MedicalRecordTab from './session/MedicalRecordTab';
-import PrescriptionTab from './session/PrescriptionTab';
-import LabTab from './session/LabTab';
-import DocumentationTab from './session/DocumentationTab';
-import ErrorAlert from './session/ErrorAlert';
+import { useEffect, useState, useRef } from "react";
+import { useSession } from "../hooks/useSession";
+import { useSessionManager } from "../hooks/useSessionManager";
+import useAuth from "../../auth/hooks/useAuth";
+import SessionHeader from "./session/SessionHeader";
+import MedicalRecordTab from "./session/MedicalRecordTab";
+import PrescriptionTab from "./session/PrescriptionTab";
+import LabTab from "./session/LabTab";
+import DocumentationTab from "./session/DocumentationTab";
+import ErrorAlert from "./session/ErrorAlert";
 
 const SessionModal = ({ isOpen, onClose, appointmentId, appointmentData }) => {
   const {

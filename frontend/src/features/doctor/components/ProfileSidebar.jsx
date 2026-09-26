@@ -1,8 +1,8 @@
-import React, { useMemo, useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { FaUserMd, FaUser, FaStethoscope, FaHospital, FaDollarSign, FaCalendarAlt, FaUserFriends, FaChartBar } from 'react-icons/fa';
-import { useAuthStore } from '@/features/auth/store/authStore';
-import doctorService from '@/api/services/doctor.service';
+import React, { useMemo, useState, useEffect } from "react";
+import PropTypes from "prop-types";
+import { FaUserMd, FaUser, FaStethoscope, FaHospital, FaDollarSign, FaCalendarAlt, FaUserFriends, FaChartBar } from "react-icons/fa";
+import { useAuthStore } from "@/features/auth/store/authStore";
+import doctorService from "@/api/services/doctor.service";
 
 const ProfileSidebar = ({ formData, activeSection, setActiveSection }) => {
   const { user, updateUser } = useAuthStore();

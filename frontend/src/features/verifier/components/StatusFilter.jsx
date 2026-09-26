@@ -1,4 +1,4 @@
-import { APPLICATION_STATUS, STATUS_LABELS, STATUS_COLORS } from '../constants/verifierConstants';
+import { APPLICATION_STATUS, STATUS_LABELS, STATUS_COLORS } from "../constants/verifierConstants";
 
 /**
  * Status Filter Component

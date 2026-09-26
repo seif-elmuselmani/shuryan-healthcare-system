@@ -1,6 +1,6 @@
-import { create } from 'zustand';
-import { devtools, persist } from 'zustand/middleware';
-import * as laboratoryService from '@/api/services/laboratory.service';
+import { create } from "zustand";
+import { devtools, persist } from "zustand/middleware";
+import * as laboratoryService from "@/api/services/laboratory.service";
 
 /**
  * Laboratory Profile Store

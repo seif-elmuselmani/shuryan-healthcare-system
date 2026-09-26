@@ -8,9 +8,9 @@
  * - Smooth slider interaction without lag
  */
 
-import { useState, useEffect, useRef } from 'react';
-import Slider from 'rc-slider';
-import 'rc-slider/assets/index.css';
+import { useState, useEffect, useRef } from "react";
+import Slider from "rc-slider";
+import "rc-slider/assets/index.css";
 
 const PriceSlider = ({
     value = [0, 1000],

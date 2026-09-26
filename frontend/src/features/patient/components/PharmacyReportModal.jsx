@@ -1,6 +1,6 @@
-import React from 'react';
-import { FaTimes, FaClock, FaCheckCircle, FaExclamationTriangle, FaTimesCircle, FaExchangeAlt, FaPills, FaMoneyBillWave } from 'react-icons/fa';
-import { AVAILABILITY_STATUS } from '../data/mockPharmacyReports';
+import React from "react";
+import { FaTimes, FaClock, FaCheckCircle, FaExclamationTriangle, FaTimesCircle, FaExchangeAlt, FaPills, FaMoneyBillWave } from "react-icons/fa";
+import { AVAILABILITY_STATUS } from "../data/mockPharmacyReports";
 
 /**
  * PharmacyReportModal Component

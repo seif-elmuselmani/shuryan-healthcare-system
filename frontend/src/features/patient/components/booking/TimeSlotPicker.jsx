@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaClock, FaCheckCircle, FaTimes, FaCalendarDay, FaLock } from 'react-icons/fa';
+import React from "react";
+import { FaClock, FaCheckCircle, FaTimes, FaCalendarDay, FaLock } from "react-icons/fa";
 
 /**
  * TimeSlotPicker - Step 3: Choose appointment time

@@ -3,9 +3,9 @@
  * Manages doctors list, filters, pagination, and selected doctor details
  */
 
-import { create } from 'zustand';
-import { devtools, persist } from 'zustand/middleware';
-import patientService from '@/api/services/patient.service';
+import { create } from "zustand";
+import { devtools, persist } from "zustand/middleware";
+import patientService from "@/api/services/patient.service";
 
 export const useDoctorsStore = create(
   devtools(

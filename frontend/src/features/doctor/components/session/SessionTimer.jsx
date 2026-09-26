@@ -1,4 +1,4 @@
-import { FaClock, FaExclamationTriangle } from 'react-icons/fa';
+import { FaClock, FaExclamationTriangle } from "react-icons/fa";
 
 /**
  * Session Timer Component

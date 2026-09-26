@@ -1,10 +1,10 @@
-import React, { useState, useMemo, useCallback } from 'react';
-import { Calendar, momentLocalizer } from 'react-big-calendar';
-import moment from 'moment';
-import 'react-big-calendar/lib/css/react-big-calendar.css';
-import 'moment/locale/ar';
-import { FaToggleOn, FaToggleOff, FaClock, FaCalendarPlus, FaPlus } from 'react-icons/fa';
-import TimePicker from '@/components/ui/TimePicker';
+import React, { useState, useMemo, useCallback } from "react";
+import { Calendar, momentLocalizer } from "react-big-calendar";
+import moment from "moment";
+import "react-big-calendar/lib/css/react-big-calendar.css";
+import "moment/locale/ar";
+import { FaToggleOn, FaToggleOff, FaClock, FaCalendarPlus, FaPlus } from "react-icons/fa";
+import TimePicker from "@/components/ui/TimePicker";
 
 // Configure moment for Arabic
 moment.locale('ar');

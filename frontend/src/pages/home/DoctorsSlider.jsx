@@ -1,5 +1,5 @@
-import { useState, useRef, useEffect, useCallback } from 'react';
-import { useDoctorCanvas } from '../../hooks/useDoctorCanvas';
+import { useState, useRef, useEffect, useCallback } from "react";
+import { useDoctorCanvas } from "../../hooks/useDoctorCanvas";
 
 const DrYoussef = new URL('../../assets/images/Dr-Youssef-Hamdi.png', import.meta.url).href;
 const DrAlia = new URL('../../assets/images/Dr-Alia-Al-Masry.png', import.meta.url).href;

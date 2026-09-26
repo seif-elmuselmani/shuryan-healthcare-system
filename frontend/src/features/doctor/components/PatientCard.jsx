@@ -1,10 +1,10 @@
-import React, { memo } from 'react';
+import React, { memo } from "react";
 import { 
   FaUser, FaPhone, FaCalendarAlt, FaStethoscope,
   FaFileMedical, FaPrescriptionBottleAlt, FaFlask,
   FaCheckCircle, FaChevronLeft, FaStar, FaMapMarkerAlt
-} from 'react-icons/fa';
-import { formatDate } from '@/utils/helpers';
+} from "react-icons/fa";
+import { formatDate } from "@/utils/helpers";
 
 /**
  * PatientCard Component - Elegant Refined Design

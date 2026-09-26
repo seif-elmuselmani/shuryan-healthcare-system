@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from 'react';
-import { FaVial, FaCheckCircle, FaExclamationCircle, FaSpinner, FaDollarSign } from 'react-icons/fa';
-import useLaboratoryProfile from '../../hooks/useLaboratoryProfile';
+import { useState, useEffect, useRef } from "react";
+import { FaVial, FaCheckCircle, FaExclamationCircle, FaSpinner, FaDollarSign } from "react-icons/fa";
+import useLaboratoryProfile from "../../hooks/useLaboratoryProfile";
 
 /**
  * SampleCollectionSection Component

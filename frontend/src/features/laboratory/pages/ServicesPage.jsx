@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
     FaFlask,
     FaPlus,
@@ -13,9 +13,9 @@ import {
     FaTimesCircle,
     FaMicroscope,
     FaFilter,
-} from 'react-icons/fa';
-import useServicesStore from '../stores/servicesStore';
-import { getAvailableTests } from '../../../api/services/laboratory.service';
+} from "react-icons/fa";
+import useServicesStore from "../stores/servicesStore";
+import { getAvailableTests } from "../../../api/services/laboratory.service";
 
 /**
  * Laboratory Services Page - Manage laboratory test services

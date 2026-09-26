@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { 
   FaHeart, 
   FaCode, 
@@ -19,7 +19,7 @@ import {
   FaGlobe,
   FaMobile,
   FaCheckCircle
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * Dashboard Footer Component

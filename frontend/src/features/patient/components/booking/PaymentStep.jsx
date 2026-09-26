@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   FaCreditCard,
   FaCheckCircle,
   FaLock,
   FaShieldAlt,
   FaMobileAlt,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * PaymentStep - Step 5: Payment method selection and processing

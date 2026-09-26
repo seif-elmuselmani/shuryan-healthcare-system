@@ -1,2 +1,2 @@
 // src/hooks/useTheme.js
-export { useTheme } from '@/contexts/ThemeContext';
+export { useTheme } from "@/contexts/ThemeContext";

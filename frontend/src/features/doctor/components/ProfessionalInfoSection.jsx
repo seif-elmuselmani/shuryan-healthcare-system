@@ -1,8 +1,8 @@
-import React, { useMemo } from 'react';
-import { FaFileImage, FaBriefcaseMedical, FaPaperPlane, FaStethoscope } from 'react-icons/fa';
-import { Field, Combobox, ComboboxOption, ComboboxLabel } from '@/components/common/Combobox';
-import DocumentUpload from './DocumentUpload';
-import MultiDocumentUpload from './MultiDocumentUpload';
+import React, { useMemo } from "react";
+import { FaFileImage, FaBriefcaseMedical, FaPaperPlane, FaStethoscope } from "react-icons/fa";
+import { Field, Combobox, ComboboxOption, ComboboxLabel } from "@/components/common/Combobox";
+import DocumentUpload from "./DocumentUpload";
+import MultiDocumentUpload from "./MultiDocumentUpload";
 
 const ProfessionalInfoSection = ({ 
   formData, 

@@ -1,14 +1,14 @@
 // src/features/auth/pages/VerifyEmailPage.jsx
-import React, { useState, useRef, useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
-import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
-import { FaShieldAlt, FaCheckCircle, FaRedo } from 'react-icons/fa';
-import { useAuthStore } from '../store/authStore';
-import { verifyEmailSchema } from '../schemas/authSchemas';
-import authService from '@/api/services/auth.service';
-import Button from '@/components/ui/Button';
-import Alert from '@/components/ui/Alert';
+import React, { useState, useRef, useEffect } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { FaShieldAlt, FaCheckCircle, FaRedo } from "react-icons/fa";
+import { useAuthStore } from "../store/authStore";
+import { verifyEmailSchema } from "../schemas/authSchemas";
+import authService from "@/api/services/auth.service";
+import Button from "@/components/ui/Button";
+import Alert from "@/components/ui/Alert";
 
 const VerifyEmailPage = () => {
   const [otp, setOtp] = useState(['', '', '', '', '', '']);

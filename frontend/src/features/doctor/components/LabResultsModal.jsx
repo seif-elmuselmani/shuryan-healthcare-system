@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { 
   FaTimes, FaFlask, FaPrint, FaCalendarAlt,
   FaUser, FaFileAlt, FaCheckCircle, FaExclamationTriangle,
   FaArrowUp, FaArrowDown, FaMinus
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * LabResultsModal Component - Premium Design

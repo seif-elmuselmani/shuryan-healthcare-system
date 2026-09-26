@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { FaCalendarAlt, FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
+import React, { useState, useEffect, useMemo } from "react";
+import { FaCalendarAlt, FaChevronLeft, FaChevronRight, FaTimes } from "react-icons/fa";
 
 /**
  * DatePicker - Step 2: Choose appointment date (30 days ahead)

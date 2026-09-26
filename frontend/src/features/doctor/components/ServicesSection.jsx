@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { useServices } from '../hooks/useServices';
-import ServiceCard from './ServiceCard';
+import React, { useState, useEffect } from "react";
+import { useServices } from "../hooks/useServices";
+import ServiceCard from "./ServiceCard";
 import { 
   FaStethoscope, 
   FaRedoAlt, 
   FaDollarSign,
   FaInfoCircle
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * ServicesSection Component

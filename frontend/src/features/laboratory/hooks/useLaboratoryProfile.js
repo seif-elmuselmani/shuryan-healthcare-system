@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import useLaboratoryProfileStore from '../stores/laboratoryProfileStore';
+import { useEffect } from "react";
+import useLaboratoryProfileStore from "../stores/laboratoryProfileStore";
 
 /**
  * Custom hook for laboratory profile management

@@ -1,14 +1,14 @@
 // src/features/auth/pages/ForgotPasswordPage.jsx
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
-import { FaEnvelope, FaArrowLeft } from 'react-icons/fa';
-import { useAuthStore } from '../store/authStore';
-import { forgotPasswordSchema } from '../schemas/authSchemas';
-import Input from '@/components/ui/Input';
-import Button from '@/components/ui/Button';
-import Alert from '@/components/ui/Alert';
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { FaEnvelope, FaArrowLeft } from "react-icons/fa";
+import { useAuthStore } from "../store/authStore";
+import { forgotPasswordSchema } from "../schemas/authSchemas";
+import Input from "@/components/ui/Input";
+import Button from "@/components/ui/Button";
+import Alert from "@/components/ui/Alert";
 
 const ForgotPasswordPage = () => {
   const navigate = useNavigate();

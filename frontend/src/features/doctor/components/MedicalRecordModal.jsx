@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import { 
   FaTimes, FaFileMedical, FaPrint, FaCalendarAlt,
   FaUser, FaFileAlt, FaAllergies, FaHeartbeat,
   FaPills, FaSyringe, FaExclamationCircle, FaCheckCircle
-} from 'react-icons/fa';
-import { usePatientsStore } from '../stores/patientsStore';
-import { formatDate } from '@/utils/helpers';
+} from "react-icons/fa";
+import { usePatientsStore } from "../stores/patientsStore";
+import { formatDate } from "@/utils/helpers";
 
 /**
  * MedicalRecordModal Component - Premium Design

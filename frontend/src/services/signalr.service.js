@@ -1,4 +1,4 @@
-import * as signalR from '@microsoft/signalr';
+import * as signalR from "@microsoft/signalr";
 
 /**
  * SignalR Service للاتصال بـ Notifications Hub

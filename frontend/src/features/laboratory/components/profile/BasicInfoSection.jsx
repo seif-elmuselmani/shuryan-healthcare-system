@@ -1,6 +1,6 @@
-import { useState, useEffect, useRef } from 'react';
-import { FaUser, FaEnvelope, FaPhone, FaCamera, FaCheckCircle, FaExclamationCircle, FaSpinner } from 'react-icons/fa';
-import useLaboratoryProfile from '../../hooks/useLaboratoryProfile';
+import { useState, useEffect, useRef } from "react";
+import { FaUser, FaEnvelope, FaPhone, FaCamera, FaCheckCircle, FaExclamationCircle, FaSpinner } from "react-icons/fa";
+import useLaboratoryProfile from "../../hooks/useLaboratoryProfile";
 
 /**
  * BasicInfoSection Component

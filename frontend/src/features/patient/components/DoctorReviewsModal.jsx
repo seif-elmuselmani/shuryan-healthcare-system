@@ -3,9 +3,9 @@
  * Shows all patient reviews for a specific doctor
  */
 
-import { useEffect, useState } from 'react';
-import { FaTimes, FaStar, FaUserCircle, FaCheckCircle, FaCalendar } from 'react-icons/fa';
-import patientService from '@/api/services/patient.service';
+import { useEffect, useState } from "react";
+import { FaTimes, FaStar, FaUserCircle, FaCheckCircle, FaCalendar } from "react-icons/fa";
+import patientService from "@/api/services/patient.service";
 
 const DoctorReviewsModal = ({ doctorId, doctorName, isOpen, onClose }) => {
   const [reviews, setReviews] = useState([]);

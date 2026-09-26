@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   FaEye, FaShoppingCart, FaUserMd, FaCalendarAlt,
   FaStethoscope, FaHashtag, FaExclamationCircle, FaFileAlt, FaInfoCircle, FaFlask, FaClipboardList, FaCreditCard
-} from 'react-icons/fa';
-import LabPrescriptionDetailsModal from '../components/lab/LabPrescriptionDetailsModal';
-import OrderLabTestModal from '../components/OrderLabTestModal';
-import LabReportsModal from '../components/LabReportsModal';
-import PaymentModal from '../components/lab/PaymentModal';
-import { formatDate } from '@/utils/helpers';
-import useAuth from '../../auth/hooks/useAuth';
-import patientService from '@/api/services/patient.service';
-import { LAB_STATUS_CONFIG } from '@/features/laboratory/constants/labConstants';
+} from "react-icons/fa";
+import LabPrescriptionDetailsModal from "../components/lab/LabPrescriptionDetailsModal";
+import OrderLabTestModal from "../components/OrderLabTestModal";
+import LabReportsModal from "../components/LabReportsModal";
+import PaymentModal from "../components/lab/PaymentModal";
+import { formatDate } from "@/utils/helpers";
+import useAuth from "../../auth/hooks/useAuth";
+import patientService from "@/api/services/patient.service";
+import { LAB_STATUS_CONFIG } from "@/features/laboratory/constants/labConstants";
 
 /**
  * LabResultsPage Component

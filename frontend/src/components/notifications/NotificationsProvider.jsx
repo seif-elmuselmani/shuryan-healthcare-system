@@ -1,5 +1,5 @@
-import React from 'react';
-import useNotifications from '@/hooks/useNotifications';
+import React from "react";
+import useNotifications from "@/hooks/useNotifications";
 
 /**
  * Notifications Provider

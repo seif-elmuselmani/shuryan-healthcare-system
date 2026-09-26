@@ -1,11 +1,11 @@
-import { FaEye, FaEnvelope, FaPhone, FaMapMarkerAlt, FaBriefcase, FaCalendarAlt } from 'react-icons/fa';
+import { FaEye, FaEnvelope, FaPhone, FaMapMarkerAlt, FaBriefcase, FaCalendarAlt } from "react-icons/fa";
 import {
   APPLICATION_TYPE,
   STATUS_LABELS,
   STATUS_COLORS,
   DOCUMENT_STATUS,
   DOCUMENT_STATUS_COLORS,
-} from '../constants/verifierConstants';
+} from "../constants/verifierConstants";
 
 /**
  * Application Card Component

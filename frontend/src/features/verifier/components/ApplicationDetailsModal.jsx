@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import {
   FaTimes,
   FaCheckCircle,
@@ -9,16 +9,16 @@ import {
   FaMapMarkerAlt,
   FaBriefcase,
   FaFileAlt,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 import {
   APPLICATION_TYPE,
   STATUS_LABELS,
   DOCUMENT_STATUS,
   DOCUMENT_STATUS_LABELS,
   DOCUMENT_STATUS_COLORS,
-} from '../constants/verifierConstants';
-import useVerifier from '../hooks/useVerifier';
-import ImageViewerModal from './ImageViewerModal';
+} from "../constants/verifierConstants";
+import useVerifier from "../hooks/useVerifier";
+import ImageViewerModal from "./ImageViewerModal";
 
 /**
  * Application Details Modal Component

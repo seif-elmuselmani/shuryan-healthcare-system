@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { FaCalendarAlt, FaTrash } from 'react-icons/fa';
+import React from "react";
+import PropTypes from "prop-types";
+import { FaCalendarAlt, FaTrash } from "react-icons/fa";
 
 /**
  * ExceptionCard Component - Display exceptional date

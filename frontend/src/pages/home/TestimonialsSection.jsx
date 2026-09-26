@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const TestimonialsSection = () => {
   const [isVisible, setIsVisible] = useState(false);

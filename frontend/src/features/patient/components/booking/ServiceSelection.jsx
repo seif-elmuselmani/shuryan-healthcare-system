@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import {
   FaStethoscope,
   FaRedoAlt,
   FaClock,
   FaMoneyBillWave,
   FaCheckCircle,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * ServiceSelection - Step 1: Choose consultation type

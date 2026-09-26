@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { useProfileStore } from '../stores/profileStore';
+import { useEffect } from "react";
+import { useProfileStore } from "../stores/profileStore";
 
 /**
  * Custom hook for patient profile

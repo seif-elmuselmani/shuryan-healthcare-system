@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { useAppointment } from '../hooks/useAppointment';
-import WeeklyScheduleCalendar from './WeeklyScheduleCalendar';
-import ExceptionCard from './ExceptionCard';
+import React, { useState, useEffect } from "react";
+import { useAppointment } from "../hooks/useAppointment";
+import WeeklyScheduleCalendar from "./WeeklyScheduleCalendar";
+import ExceptionCard from "./ExceptionCard";
 import { 
   FaCalendarAlt, 
   FaClock, 
   FaCalendarDay,
   FaCalendarPlus,
   FaPlus
-} from 'react-icons/fa';
-import '../../../styles/calendar-custom.css';
+} from "react-icons/fa";
+import "../../../styles/calendar-custom.css";
 
 /**
  * AppointmentSection Component

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { usePatientProfile } from '../../hooks/usePatientProfile';
+import React, { useState } from "react";
+import { usePatientProfile } from "../../hooks/usePatientProfile";
 import {
   FaFileMedical,
   FaAllergies,
@@ -9,7 +9,7 @@ import {
   FaPlus,
   FaTrash,
   FaExclamationTriangle,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * Medical Record Section Component

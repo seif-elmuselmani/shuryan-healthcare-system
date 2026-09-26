@@ -5,7 +5,7 @@ import {
   FaFileMedical,
   FaStopCircle,
   FaArrowRight,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * Session Actions Component

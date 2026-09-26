@@ -1,7 +1,7 @@
-import { useState, useEffect, useRef } from 'react';
-import { FaMapMarkerAlt, FaCheckCircle, FaExclamationCircle, FaSpinner, FaLocationArrow } from 'react-icons/fa';
-import MapPicker from '@/components/common/MapPicker';
-import useLaboratoryProfile from '../../hooks/useLaboratoryProfile';
+import { useState, useEffect, useRef } from "react";
+import { FaMapMarkerAlt, FaCheckCircle, FaExclamationCircle, FaSpinner, FaLocationArrow } from "react-icons/fa";
+import MapPicker from "@/components/common/MapPicker";
+import useLaboratoryProfile from "../../hooks/useLaboratoryProfile";
 
 /**
  * AddressSection Component

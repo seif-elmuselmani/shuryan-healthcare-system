@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { useSessionStore } from '../stores/sessionStore';
-import { isAppointmentCompleted } from '@/utils/appointmentStatus';
+import { useState } from "react";
+import { useSessionStore } from "../stores/sessionStore";
+import { isAppointmentCompleted } from "@/utils/appointmentStatus";
 
 /**
  * useSessionManager Hook

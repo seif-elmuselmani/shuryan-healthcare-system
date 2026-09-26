@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import { FaPills, FaPrescriptionBottleAlt, FaPlus, FaTrash, FaSave } from 'react-icons/fa';
-import Autocomplete from '@mui/material/Autocomplete';
-import TextField from '@mui/material/TextField';
-import Prescriptions from '../../../../api/services/prescriptions.service';
+import { useState, useEffect } from "react";
+import { FaPills, FaPrescriptionBottleAlt, FaPlus, FaTrash, FaSave } from "react-icons/fa";
+import Autocomplete from "@mui/material/Autocomplete";
+import TextField from "@mui/material/TextField";
+import Prescriptions from "../../../../api/services/prescriptions.service";
 
 const DOSAGE_OPTIONS = [
   'قرص واحد', 'قرصين', '3 أقراص', 'نصف قرص', 'ربع قرص',

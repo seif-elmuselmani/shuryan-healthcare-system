@@ -1,11 +1,11 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback } from "react";
 import { 
   FaTimes, FaFlask, FaCalendarAlt,
   FaUser, FaVial, FaExclamationCircle, FaHashtag,
   FaUserMd
-} from 'react-icons/fa';
-import { formatDate } from '@/utils/helpers';
-import patientService from '@/api/services/patient.service';
+} from "react-icons/fa";
+import { formatDate } from "@/utils/helpers";
+import patientService from "@/api/services/patient.service";
 
 /**
  * LabResultDetailsModal Component

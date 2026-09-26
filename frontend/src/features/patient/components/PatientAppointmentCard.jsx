@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { 
   FaUserMd, 
   FaCalendarAlt, 
@@ -11,10 +11,10 @@ import {
   FaSpinner,
   FaBan,
   FaEye
-} from 'react-icons/fa';
-import AppointmentDetailsModal from './AppointmentDetailsModal';
-import { formatDate } from '@/utils/helpers';
-import { getSpecialtyById } from '@/utils/constants';
+} from "react-icons/fa";
+import AppointmentDetailsModal from "./AppointmentDetailsModal";
+import { formatDate } from "@/utils/helpers";
+import { getSpecialtyById } from "@/utils/constants";
 
 /**
  * Patient Appointment Card Component

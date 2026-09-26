@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   FaUser,
   FaCalendarAlt,
@@ -6,7 +6,7 @@ import {
   FaMoneyBillWave,
   FaCheckCircle,
   FaChevronLeft,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * BookingSummary - Simplified booking confirmation

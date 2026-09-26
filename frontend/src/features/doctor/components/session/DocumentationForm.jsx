@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { FaTimes, FaFileAlt } from 'react-icons/fa';
+import { useState } from "react";
+import { FaTimes, FaFileAlt } from "react-icons/fa";
 
 /**
  * Documentation Form Modal

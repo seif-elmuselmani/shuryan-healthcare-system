@@ -1,14 +1,14 @@
 // src/features/auth/pages/ResetPasswordPage.jsx
-import React, { useState, useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
-import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
-import { FaLock, FaCheckCircle } from 'react-icons/fa';
-import { useAuthStore } from '../store/authStore';
-import { newPasswordSchema } from '../schemas/authSchemas';
-import Input from '@/components/ui/Input';
-import Button from '@/components/ui/Button';
-import Alert from '@/components/ui/Alert';
+import React, { useState, useEffect } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { FaLock, FaCheckCircle } from "react-icons/fa";
+import { useAuthStore } from "../store/authStore";
+import { newPasswordSchema } from "../schemas/authSchemas";
+import Input from "@/components/ui/Input";
+import Button from "@/components/ui/Button";
+import Alert from "@/components/ui/Alert";
 
 const ResetPasswordPage = () => {
   const [success, setSuccess] = useState(false);

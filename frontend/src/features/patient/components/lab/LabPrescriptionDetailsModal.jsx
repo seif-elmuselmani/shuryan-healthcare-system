@@ -1,4 +1,4 @@
-import { FaTimes, FaFlask, FaUserMd, FaCalendarAlt, FaNotesMedical, FaCheckCircle, FaClock, FaHospital } from 'react-icons/fa';
+import { FaTimes, FaFlask, FaUserMd, FaCalendarAlt, FaNotesMedical, FaCheckCircle, FaClock, FaHospital } from "react-icons/fa";
 
 const LabPrescriptionDetailsModal = ({ prescription, onClose }) => {
   if (!prescription) return null;

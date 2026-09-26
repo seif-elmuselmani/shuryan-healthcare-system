@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { 
   FaTimes, 
   FaFlask, 
@@ -10,8 +10,8 @@ import {
   FaPhone,
   FaHome,
   FaMapPin
-} from 'react-icons/fa';
-import patientService from '../../../api/services/patient.service';
+} from "react-icons/fa";
+import patientService from "../../../api/services/patient.service";
 
 /**
  * OrderLabTestModal Component

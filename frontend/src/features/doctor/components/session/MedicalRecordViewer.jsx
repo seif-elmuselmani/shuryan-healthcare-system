@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { FaTimes, FaAllergies, FaPills, FaDisease, FaSyringe, FaSpinner } from 'react-icons/fa';
+import { useState } from "react";
+import { FaTimes, FaAllergies, FaPills, FaDisease, FaSyringe, FaSpinner } from "react-icons/fa";
 
 /**
  * Medical Record Viewer Modal

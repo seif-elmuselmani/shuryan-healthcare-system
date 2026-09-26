@@ -1,11 +1,11 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 import { 
   FaStar, FaFilter, FaChevronDown, 
   FaCheck, FaChartLine, FaAward, FaUsers, FaRegStar
-} from 'react-icons/fa';
-import ReviewCard from '../components/ReviewCard';
-import ReviewDetailsModal from '../components/ReviewDetailsModal';
-import useReviews from '../hooks/useReviews';
+} from "react-icons/fa";
+import ReviewCard from "../components/ReviewCard";
+import ReviewDetailsModal from "../components/ReviewDetailsModal";
+import useReviews from "../hooks/useReviews";
 
 /**
  * ReviewsPage - Premium Design

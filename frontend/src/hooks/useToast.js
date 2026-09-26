@@ -1,5 +1,5 @@
 // src/hooks/useToast.js
-import { create } from 'zustand';
+import { create } from "zustand";
 
 /**
  * Toast Store

@@ -1,4 +1,4 @@
-import { FaHome, FaShoppingCart, FaUser } from 'react-icons/fa';
+import { FaHome, FaShoppingCart, FaUser } from "react-icons/fa";
 
 /**
  * Pharmacy Navigation Items

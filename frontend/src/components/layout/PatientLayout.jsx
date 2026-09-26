@@ -1,7 +1,7 @@
 // src/components/layout/PatientLayout.jsx
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import PatientNavbar from '@/features/patient/components/PatientNavbar';
+import React from "react";
+import { Outlet } from "react-router-dom";
+import PatientNavbar from "@/features/patient/components/PatientNavbar";
 
 /**
  * Patient Layout Component

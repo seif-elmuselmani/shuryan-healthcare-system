@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { 
   FaTimes, FaPrescriptionBottleAlt, 
   FaPills, FaClock, FaStickyNote, FaPrint, FaCalendarAlt,
   FaUser, FaFileAlt
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * PrescriptionModal Component - Premium Design

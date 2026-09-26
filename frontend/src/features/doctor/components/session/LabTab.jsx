@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
-import { FaFlask, FaVial, FaPlus, FaTrash, FaSave } from 'react-icons/fa';
-import Autocomplete from '@mui/material/Autocomplete';
-import TextField from '@mui/material/TextField';
-import doctorService from '@/api/services/doctor.service';
-import laboratoryService from '@/api/services/laboratory.service';
+import { useState, useEffect } from "react";
+import { FaFlask, FaVial, FaPlus, FaTrash, FaSave } from "react-icons/fa";
+import Autocomplete from "@mui/material/Autocomplete";
+import TextField from "@mui/material/TextField";
+import doctorService from "@/api/services/doctor.service";
+import laboratoryService from "@/api/services/laboratory.service";
 
 const SPECIAL_INSTRUCTIONS_OPTIONS = [
   'صائم 8 ساعات قبل التحليل',

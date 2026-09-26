@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { FaBars, FaTimes, FaUser, FaSignOutAlt } from 'react-icons/fa';
-import { useAuthStore } from '@/features/auth/store/authStore';
-import { LABORATORY_NAV_ITEMS } from '../constants/navigation';
-import CircleLogo from '@/assets/CircleLogoPNG.png';
-import ArLogoWord from '@/assets/ArLogoWord.png';
+import React, { useState, useEffect, useRef } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { FaBars, FaTimes, FaUser, FaSignOutAlt } from "react-icons/fa";
+import { useAuthStore } from "@/features/auth/store/authStore";
+import { LABORATORY_NAV_ITEMS } from "../constants/navigation";
+import CircleLogo from "@/assets/CircleLogoPNG.png";
+import ArLogoWord from "@/assets/ArLogoWord.png";
 
 /**
  * Laboratory Dashboard Navbar Component

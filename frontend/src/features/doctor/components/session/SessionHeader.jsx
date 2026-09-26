@@ -1,4 +1,4 @@
-import { FaTimes, FaStopCircle, FaUser, FaPhone, FaCalendarAlt, FaHeart, FaPrescriptionBottleAlt, FaFlask, FaFileAlt } from 'react-icons/fa';
+import { FaTimes, FaStopCircle, FaUser, FaPhone, FaCalendarAlt, FaHeart, FaPrescriptionBottleAlt, FaFlask, FaFileAlt } from "react-icons/fa";
 
 const SessionHeader = ({ 
   patientInfo, 

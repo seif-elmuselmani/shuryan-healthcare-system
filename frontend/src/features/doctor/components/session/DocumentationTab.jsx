@@ -1,5 +1,5 @@
-import { AnimatePresence } from 'framer-motion';
-import { FaSave, FaStethoscope, FaHistory, FaUserMd, FaClipboardCheck, FaTasks } from 'react-icons/fa';
+import { AnimatePresence } from "framer-motion";
+import { FaSave, FaStethoscope, FaHistory, FaUserMd, FaClipboardCheck, FaTasks } from "react-icons/fa";
 
 const DocumentationTab = ({ docForm, onDocFormChange, autoSaveStatus }) => {
   const fields = [

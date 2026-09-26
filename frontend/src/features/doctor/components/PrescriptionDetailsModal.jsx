@@ -1,11 +1,11 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState, useCallback } from "react";
 import { 
   FaTimes, FaPrescriptionBottleAlt, FaCalendarAlt,
   FaUser, FaPills, FaExclamationCircle, FaHashtag,
   FaUserMd, FaHospital
-} from 'react-icons/fa';
-import { usePatientsStore } from '../stores/patientsStore';
-import { formatDate } from '@/utils/helpers';
+} from "react-icons/fa";
+import { usePatientsStore } from "../stores/patientsStore";
+import { formatDate } from "@/utils/helpers";
 
 /**
  * PrescriptionDetailsModal Component

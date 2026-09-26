@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   FaFlask,
   FaSearch,
@@ -10,10 +10,10 @@ import {
   FaChevronDown,
   FaChevronUp,
   FaSpinner
-} from 'react-icons/fa';
-import useLabOrdersStore from '../stores/labOrdersStore';
+} from "react-icons/fa";
+import useLabOrdersStore from "../stores/labOrdersStore";
 
-import { LAB_ORDER_STATUS, LAB_STATUS_CONFIG } from '../constants/labConstants';
+import { LAB_ORDER_STATUS, LAB_STATUS_CONFIG } from "../constants/labConstants";
 
 /**
  * Laboratory Orders Page - All Orders

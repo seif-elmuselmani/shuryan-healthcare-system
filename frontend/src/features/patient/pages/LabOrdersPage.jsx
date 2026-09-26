@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import { FaFlask, FaSync, FaFilter, FaExclamationCircle } from 'react-icons/fa';
-import patientService from '../../../api/services/patient.service';
-import LabOrderCard from '../components/lab/LabOrderCard';
-import PaymentModal from '../components/lab/PaymentModal';
+import { useState, useEffect } from "react";
+import { FaFlask, FaSync, FaFilter, FaExclamationCircle } from "react-icons/fa";
+import patientService from "../../../api/services/patient.service";
+import LabOrderCard from "../components/lab/LabOrderCard";
+import PaymentModal from "../components/lab/PaymentModal";
 
 /**
  * Lab Orders Page

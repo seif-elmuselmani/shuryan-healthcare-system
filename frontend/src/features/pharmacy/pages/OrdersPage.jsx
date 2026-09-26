@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   FaShoppingCart,
   FaSearch,
@@ -10,8 +10,8 @@ import {
   FaChevronDown,
   FaChevronUp,
   FaSpinner
-} from 'react-icons/fa';
-import useOrdersStore from '../stores/ordersStore';
+} from "react-icons/fa";
+import useOrdersStore from "../stores/ordersStore";
 
 /**
  * Order Status Configuration - Maps numeric status to display info

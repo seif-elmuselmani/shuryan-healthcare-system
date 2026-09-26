@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import { 
   FaStar, FaStarHalfAlt, FaRegStar, FaQuoteRight,
   FaEdit, FaEye, FaInfoCircle
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * ReviewCard Component - Premium Design

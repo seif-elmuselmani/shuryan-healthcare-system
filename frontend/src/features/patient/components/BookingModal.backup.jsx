@@ -4,11 +4,11 @@
  * With smooth animations and professional medical design
  */
 
-import { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { DayPicker } from 'react-day-picker';
-import { format, isAfter, isBefore, startOfDay, addMonths, isSameDay } from 'date-fns';
-import { ar } from 'date-fns/locale';
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { DayPicker } from "react-day-picker";
+import { format, isAfter, isBefore, startOfDay, addMonths, isSameDay } from "date-fns";
+import { ar } from "date-fns/locale";
 import { 
   X,
   Stethoscope,
@@ -20,9 +20,9 @@ import {
   Heart,
   Sparkles,
   DollarSign,
-} from 'lucide-react';
-import { useBooking } from '../hooks/useBooking';
-import 'react-day-picker/dist/style.css';
+} from "lucide-react";
+import { useBooking } from "../hooks/useBooking";
+import "react-day-picker/dist/style.css";
 
 const BookingModal = ({ doctorInfo }) => {
   const {

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { DOCTOR_NAV_ITEMS } from '../../constants/navigation';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import { DOCTOR_NAV_ITEMS } from "../../constants/navigation";
 
 /**
  * Navbar Navigation Links Component

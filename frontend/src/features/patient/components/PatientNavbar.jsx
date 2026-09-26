@@ -1,12 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from "react";
 import {
   NavbarLogo,
   NavbarLinks,
   ProfileDropdown,
   MobileMenu,
-} from './navbar';
-import ChatBot from './ChatBot';
-import NotificationCenter from '@/components/notifications/NotificationCenter';
+} from "./navbar";
+import ChatBot from "./ChatBot";
+import NotificationCenter from "@/components/notifications/NotificationCenter";
 
 /**
  * Patient Dashboard Navbar Component

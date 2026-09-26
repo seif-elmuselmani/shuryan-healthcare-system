@@ -1,13 +1,13 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { usePartner } from '../hooks/usePartner';
+import React, { useState, useEffect, useCallback } from "react";
+import { usePartner } from "../hooks/usePartner";
 import { 
   FaHandshake, 
   FaFlask, 
   FaPrescriptionBottle,
   FaInfoCircle,
   FaTrash
-} from 'react-icons/fa';
-import PartnerAutocomplete from './PartnerAutocomplete';
+} from "react-icons/fa";
+import PartnerAutocomplete from "./PartnerAutocomplete";
 
 /**
  * PartnerSection Component - Updated with MUI Autocomplete

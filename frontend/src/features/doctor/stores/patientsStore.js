@@ -1,6 +1,6 @@
-import { create } from 'zustand';
-import { devtools, persist } from 'zustand/middleware';
-import doctorService from '@/api/services/doctor.service';
+import { create } from "zustand";
+import { devtools, persist } from "zustand/middleware";
+import doctorService from "@/api/services/doctor.service";
 
 export const usePatientsStore = create(
   devtools(

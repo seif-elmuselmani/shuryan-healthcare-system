@@ -1,4 +1,4 @@
-import { FaFlask, FaUserMd, FaCalendarAlt, FaNotesMedical, FaCheckCircle, FaClock } from 'react-icons/fa';
+import { FaFlask, FaUserMd, FaCalendarAlt, FaNotesMedical, FaCheckCircle, FaClock } from "react-icons/fa";
 
 const LabPrescriptionCard = ({ prescription, onViewDetails }) => {
   const formatDate = (dateString) => {

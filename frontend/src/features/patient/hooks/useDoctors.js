@@ -3,8 +3,8 @@
  * Encapsulates doctors store logic and provides auto-fetch on mount
  */
 
-import { useEffect } from 'react';
-import { useDoctorsStore } from '../stores/doctorsStore';
+import { useEffect } from "react";
+import { useDoctorsStore } from "../stores/doctorsStore";
 
 export const useDoctors = ({ autoFetch = true } = {}) => {
   const {

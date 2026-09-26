@@ -1,6 +1,6 @@
-import { create } from 'zustand';
-import { devtools } from 'zustand/middleware';
-import sessionService from '@/api/services/session.service';
+import { create } from "zustand";
+import { devtools } from "zustand/middleware";
+import sessionService from "@/api/services/session.service";
 
 export const useSessionStore = create(
   devtools(

@@ -1,14 +1,14 @@
 // src/features/auth/pages/LoginPage.jsx
-import React, { useState } from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
-import { Eye, EyeOff, ChevronRight, AlertCircle, ShieldCheck, Check } from 'lucide-react';
-import { useAuthStore } from '../store/authStore';
-import { loginSchema } from '../schemas/authSchemas';
-import GoogleLoginButton from '../components/GoogleLoginButton';
-import PatientRegisterImg from '@/assets/PatientRegister.jpg';
-import LogoIcon from '@/assets/LogoIcon.png';
+import React, { useState } from "react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { Eye, EyeOff, ChevronRight, AlertCircle, ShieldCheck, Check } from "lucide-react";
+import { useAuthStore } from "../store/authStore";
+import { loginSchema } from "../schemas/authSchemas";
+import GoogleLoginButton from "../components/GoogleLoginButton";
+import PatientRegisterImg from "@/assets/PatientRegister.jpg";
+import LogoIcon from "@/assets/LogoIcon.png";
 
 const LoginPage = () => {
   const [showPassword, setShowPassword] = useState(false);

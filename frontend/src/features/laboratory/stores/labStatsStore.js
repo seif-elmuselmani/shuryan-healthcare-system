@@ -1,6 +1,6 @@
-import { create } from 'zustand';
-import { devtools } from 'zustand/middleware';
-import laboratoryService from '../../../api/services/laboratory.service';
+import { create } from "zustand";
+import { devtools } from "zustand/middleware";
+import laboratoryService from "../../../api/services/laboratory.service";
 
 /**
  * Laboratory Statistics Store

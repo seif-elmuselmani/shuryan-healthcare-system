@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import { 
   FaTimes, 
   FaChevronRight, 
@@ -9,14 +9,14 @@ import {
   FaCheckCircle,
   FaCreditCard,
   FaCheckDouble
-} from 'react-icons/fa';
-import { useBooking } from '../../hooks/useBooking';
-import ServiceSelection from './ServiceSelection';
-import DatePicker from './DatePicker';
-import TimeSlotPicker from './TimeSlotPicker';
-import BookingSummary from './BookingSummary';
-import PaymentStep from './PaymentStep';
-import BookingSuccess from './BookingSuccess';
+} from "react-icons/fa";
+import { useBooking } from "../../hooks/useBooking";
+import ServiceSelection from "./ServiceSelection";
+import DatePicker from "./DatePicker";
+import TimeSlotPicker from "./TimeSlotPicker";
+import BookingSummary from "./BookingSummary";
+import PaymentStep from "./PaymentStep";
+import BookingSuccess from "./BookingSuccess";
 
 /**
  * BookingModal - Multi-step booking flow

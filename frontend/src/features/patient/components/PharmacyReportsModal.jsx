@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   FaTimes, FaEye, FaShoppingCart, FaPhoneAlt, FaMapMarkerAlt,
   FaHashtag, FaClock, FaTimesCircle, FaFileAlt, FaCheckCircle,
   FaExclamationTriangle
-} from 'react-icons/fa';
-import patientService from '@/api/services/patient.service';
-import PharmacyPaymentModal from './PharmacyPaymentModal';
+} from "react-icons/fa";
+import patientService from "@/api/services/patient.service";
+import PharmacyPaymentModal from "./PharmacyPaymentModal";
 
 /**
  * PharmacyReportsModal Component

@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import { FaCheckCircle, FaTimes, FaStar, FaCalendarAlt, FaClock, FaMoneyBillWave } from 'react-icons/fa';
-import notificationsService from '@/api/services/notifications.service';
-import { formatDateTime, getRelativeTime } from '@/utils/dateFormatter';
-import RatingModal from './RatingModal';
+import { useState, useEffect } from "react";
+import { FaCheckCircle, FaTimes, FaStar, FaCalendarAlt, FaClock, FaMoneyBillWave } from "react-icons/fa";
+import notificationsService from "@/api/services/notifications.service";
+import { formatDateTime, getRelativeTime } from "@/utils/dateFormatter";
+import RatingModal from "./RatingModal";
 
 /**
  * Modal يظهر عند انتهاء الجلسة

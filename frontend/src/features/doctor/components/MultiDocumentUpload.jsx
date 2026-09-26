@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaUpload, FaFileImage, FaTimes, FaCheck } from 'react-icons/fa';
+import React from "react";
+import { FaUpload, FaFileImage, FaTimes, FaCheck } from "react-icons/fa";
 
 /**
  * MultiDocumentUpload Component

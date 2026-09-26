@@ -1,4 +1,4 @@
-import useAppointmentsStore from '../stores/appointmentsStore';
+import useAppointmentsStore from "../stores/appointmentsStore";
 
 /**
  * Custom hook for patient appointments

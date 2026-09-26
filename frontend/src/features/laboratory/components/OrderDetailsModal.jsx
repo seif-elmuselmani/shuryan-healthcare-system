@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { respondToOrder, getServices } from '../../../api/services/laboratory.service';
+import React, { useState, useEffect } from "react";
+import { respondToOrder, getServices } from "../../../api/services/laboratory.service";
 import {
     FaTimes,
     FaFlask,
@@ -15,8 +15,8 @@ import {
     FaBirthdayCake,
     FaNotesMedical,
     FaExclamationTriangle
-} from 'react-icons/fa';
-import { LAB_ORDER_STATUS, LAB_STATUS_CONFIG } from '../constants/labConstants';
+} from "react-icons/fa";
+import { LAB_ORDER_STATUS, LAB_STATUS_CONFIG } from "../constants/labConstants";
 
 /**
  * Order Details Modal Component

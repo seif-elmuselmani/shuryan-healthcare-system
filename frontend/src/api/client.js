@@ -1,6 +1,6 @@
 // src/api/client.js
-import axios from 'axios';
-import { API_CONFIG } from '@/utils/constants';
+import axios from "axios";
+import { API_CONFIG } from "@/utils/constants";
 
 // ==========================================
 // Create Axios Instance

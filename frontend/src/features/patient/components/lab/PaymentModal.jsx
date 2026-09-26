@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { FaTimes, FaCreditCard, FaMobileAlt, FaSpinner, FaCheckCircle, FaExclamationTriangle, FaFlask } from 'react-icons/fa';
-import { initiateLabOrderPayment, simulateLabOrderPaymentSuccess, PaymentMethod, PaymentType } from '../../../../api/services/payment.service';
+import { useState } from "react";
+import { FaTimes, FaCreditCard, FaMobileAlt, FaSpinner, FaCheckCircle, FaExclamationTriangle, FaFlask } from "react-icons/fa";
+import { initiateLabOrderPayment, simulateLabOrderPaymentSuccess, PaymentMethod, PaymentType } from "../../../../api/services/payment.service";
 
 /**
  * Payment Modal Component for Lab Orders

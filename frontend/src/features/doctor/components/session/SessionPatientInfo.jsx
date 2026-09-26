@@ -1,4 +1,4 @@
-import { FaUser, FaPhone, FaBirthdayCake, FaVenusMars } from 'react-icons/fa';
+import { FaUser, FaPhone, FaBirthdayCake, FaVenusMars } from "react-icons/fa";
 
 /**
  * Session Patient Info Component

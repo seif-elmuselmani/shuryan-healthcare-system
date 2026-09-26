@@ -1,6 +1,6 @@
-import { create } from 'zustand';
-import { devtools } from 'zustand/middleware';
-import bookingService from '@/api/services/booking.service';
+import { create } from "zustand";
+import { devtools } from "zustand/middleware";
+import bookingService from "@/api/services/booking.service";
 
 /**
  * Booking Store - Manages appointment booking state

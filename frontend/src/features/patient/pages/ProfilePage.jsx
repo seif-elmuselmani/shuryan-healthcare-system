@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { usePatientProfile } from '../hooks/usePatientProfile';
-import { PersonalInfoSection, MedicalRecordSection } from '../components/profile';
-import { FaSpinner, FaUser, FaFileMedical } from 'react-icons/fa';
+import React, { useEffect, useState } from "react";
+import { usePatientProfile } from "../hooks/usePatientProfile";
+import { PersonalInfoSection, MedicalRecordSection } from "../components/profile";
+import { FaSpinner, FaUser, FaFileMedical } from "react-icons/fa";
 
 /**
  * Patient Profile Page

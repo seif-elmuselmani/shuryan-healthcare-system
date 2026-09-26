@@ -1,8 +1,8 @@
-import { useState, useRef, useEffect } from 'react';
-import { FaBell, FaCheckCircle, FaTrash, FaTimes, FaCircle, FaEnvelope, FaEnvelopeOpen } from 'react-icons/fa';
-import useNotificationsStore from '@/stores/notificationsStore';
-import notificationsService from '@/api/services/notifications.service';
-import { getRelativeTime } from '@/utils/dateFormatter';
+import { useState, useRef, useEffect } from "react";
+import { FaBell, FaCheckCircle, FaTrash, FaTimes, FaCircle, FaEnvelope, FaEnvelopeOpen } from "react-icons/fa";
+import useNotificationsStore from "@/stores/notificationsStore";
+import notificationsService from "@/api/services/notifications.service";
+import { getRelativeTime } from "@/utils/dateFormatter";
 
 /**
  * Notification Center - الجرس

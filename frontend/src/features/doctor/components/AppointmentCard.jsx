@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import { 
   FaClock, FaPlay, FaPhone, FaCalendarCheck, 
   FaStethoscope, FaMapMarkerAlt, FaCheckCircle, FaSpinner, FaDoorOpen,
   FaCalendarPlus, FaBan
-} from 'react-icons/fa';
-import { formatDate } from '@/utils/helpers';
+} from "react-icons/fa";
+import { formatDate } from "@/utils/helpers";
 
 /**
  * AppointmentCard Component - Ultra Modern Design

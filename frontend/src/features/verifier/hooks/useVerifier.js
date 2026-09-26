@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import useVerifierStore from '../stores/verifierStore';
+import { useEffect } from "react";
+import useVerifierStore from "../stores/verifierStore";
 
 /**
  * Custom Hook for Verifier Feature

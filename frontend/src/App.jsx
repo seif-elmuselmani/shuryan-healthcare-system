@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import Router from './Router';
-import { AppProvider } from '@/providers/AppProvider';
-import { ErrorBoundary, AppLoader } from '@/components/common';
-import { ToastContainer } from '@/components/ui';
-import TokenRefreshProvider from '@/components/TokenRefreshProvider';
-import NotificationsProvider from '@/components/notifications/NotificationsProvider';
-import AppointmentCompletedModal from '@/components/notifications/AppointmentCompletedModal';
-import useNotificationsStore from '@/stores/notificationsStore';
-import '@/styles/index.css';
+import React, { useEffect, useState } from "react";
+import Router from "./Router";
+import { AppProvider } from "@/providers/AppProvider";
+import { ErrorBoundary, AppLoader } from "@/components/common";
+import { ToastContainer } from "@/components/ui";
+import TokenRefreshProvider from "@/components/TokenRefreshProvider";
+import NotificationsProvider from "@/components/notifications/NotificationsProvider";
+import AppointmentCompletedModal from "@/components/notifications/AppointmentCompletedModal";
+import useNotificationsStore from "@/stores/notificationsStore";
+import "@/styles/index.css";
 
 function App() {
   const [isInitializing, setIsInitializing] = useState(true);

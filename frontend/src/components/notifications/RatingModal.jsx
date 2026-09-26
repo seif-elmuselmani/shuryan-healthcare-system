@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { FaStar, FaTimes, FaCheck, FaClock, FaComments, FaBroom, FaDollarSign, FaSmile, FaUser, FaUserSecret } from 'react-icons/fa';
-import patientService from '@/api/services/patient.service';
+import React, { useState, useEffect } from "react";
+import { FaStar, FaTimes, FaCheck, FaClock, FaComments, FaBroom, FaDollarSign, FaSmile, FaUser, FaUserSecret } from "react-icons/fa";
+import patientService from "@/api/services/patient.service";
 
 const RatingModal = ({ isOpen, onClose, appointmentId, doctorName, onSubmitSuccess }) => {
   const [ratings, setRatings] = useState({

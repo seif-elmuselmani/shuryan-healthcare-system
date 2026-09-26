@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 import { 
   FaTimes, FaPrescriptionBottleAlt, FaCalendarAlt,
   FaUser, FaFileAlt, FaExclamationCircle, FaHashtag, FaEye
-} from 'react-icons/fa';
-import { usePatientsStore } from '../stores/patientsStore';
-import { formatDate } from '@/utils/helpers';
-import useAuth from '../../auth/hooks/useAuth';
-import PrescriptionDetailsModal from './PrescriptionDetailsModal';
+} from "react-icons/fa";
+import { usePatientsStore } from "../stores/patientsStore";
+import { formatDate } from "@/utils/helpers";
+import useAuth from "../../auth/hooks/useAuth";
+import PrescriptionDetailsModal from "./PrescriptionDetailsModal";
 
 /**
  * PrescriptionsListModal Component - Premium Design

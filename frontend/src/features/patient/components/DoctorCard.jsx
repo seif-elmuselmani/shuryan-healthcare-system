@@ -3,8 +3,8 @@
  * Displays doctor in premium card with glow effects and smooth animations
  */
 
-import { FaStar, FaMapMarkerAlt, FaMoneyBillWave, FaCalendarAlt } from 'react-icons/fa';
-import { getSpecialtyById } from '@/utils/constants';
+import { FaStar, FaMapMarkerAlt, FaMoneyBillWave, FaCalendarAlt } from "react-icons/fa";
+import { getSpecialtyById } from "@/utils/constants";
 
 const DoctorCard = ({ doctor, onViewProfile, onBook }) => {
   const {

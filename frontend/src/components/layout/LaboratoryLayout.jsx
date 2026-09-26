@@ -1,7 +1,7 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import { LaboratoryNavbar } from '@/features/laboratory';
-import DashboardFooter from '@/features/doctor/components/DashboardFooter';
+import React from "react";
+import { Outlet } from "react-router-dom";
+import { LaboratoryNavbar } from "@/features/laboratory";
+import DashboardFooter from "@/features/doctor/components/DashboardFooter";
 
 /**
  * Laboratory Layout Component

@@ -1,6 +1,6 @@
-import React from 'react';
-import CircleLogo from '@/assets/CircleLogoPNG.png';
-import ArLogoWord from '@/assets/ArLogoWord.png';
+import React from "react";
+import CircleLogo from "@/assets/CircleLogoPNG.png";
+import ArLogoWord from "@/assets/ArLogoWord.png";
 
 /**
  * Full Page Loader Component with Brand Identity

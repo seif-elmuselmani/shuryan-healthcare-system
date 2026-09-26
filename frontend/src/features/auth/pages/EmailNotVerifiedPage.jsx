@@ -1,10 +1,10 @@
 // src/features/auth/pages/EmailNotVerifiedPage.jsx
-import React, { useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
-import { FaShieldAlt, FaExclamationTriangle, FaEnvelope, FaArrowRight } from 'react-icons/fa';
-import authService from '@/api/services/auth.service';
-import Button from '@/components/ui/Button';
-import Alert from '@/components/ui/Alert';
+import React, { useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import { FaShieldAlt, FaExclamationTriangle, FaEnvelope, FaArrowRight } from "react-icons/fa";
+import authService from "@/api/services/auth.service";
+import Button from "@/components/ui/Button";
+import Alert from "@/components/ui/Alert";
 
 const EmailNotVerifiedPage = () => {
   const [loading, setLoading] = useState(false);

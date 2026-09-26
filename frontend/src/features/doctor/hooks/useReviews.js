@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import useReviewsStore from '../stores/reviewsStore';
+import { useEffect } from "react";
+import useReviewsStore from "../stores/reviewsStore";
 
 /**
  * Custom hook for reviews management

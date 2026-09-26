@@ -1,7 +1,7 @@
 // src/components/ui/ToastContainer.jsx
-import React from 'react';
-import { useToastStore } from '@/hooks/useToast';
-import Toast from './Toast';
+import React from "react";
+import { useToastStore } from "@/hooks/useToast";
+import Toast from "./Toast";
 
 /**
  * Toast Container Component

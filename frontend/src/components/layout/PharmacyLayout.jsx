@@ -1,8 +1,8 @@
 // src/components/layout/PharmacyLayout.jsx
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import PharmacyNavbar from '@/features/pharmacy/components/PharmacyNavbar';
-import DashboardFooter from '@/features/doctor/components/DashboardFooter';
+import React from "react";
+import { Outlet } from "react-router-dom";
+import PharmacyNavbar from "@/features/pharmacy/components/PharmacyNavbar";
+import DashboardFooter from "@/features/doctor/components/DashboardFooter";
 
 /**
  * Pharmacy Layout Component

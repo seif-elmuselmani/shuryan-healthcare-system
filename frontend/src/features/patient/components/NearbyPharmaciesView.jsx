@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { FaMapMarkerAlt, FaTruck, FaTimes, FaStar, FaPhone, FaPaperPlane, FaFileAlt, FaCheckCircle } from 'react-icons/fa';
-import usePharmacy from '../hooks/usePharmacy';
+import React, { useState } from "react";
+import { FaMapMarkerAlt, FaTruck, FaTimes, FaStar, FaPhone, FaPaperPlane, FaFileAlt, FaCheckCircle } from "react-icons/fa";
+import usePharmacy from "../hooks/usePharmacy";
 
 /**
  * NearbyPharmaciesView Component

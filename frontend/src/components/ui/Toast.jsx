@@ -1,6 +1,6 @@
 // src/components/ui/Toast.jsx
-import React, { useEffect } from 'react';
-import { FaCheckCircle, FaExclamationCircle, FaInfoCircle, FaTimes } from 'react-icons/fa';
+import React, { useEffect } from "react";
+import { FaCheckCircle, FaExclamationCircle, FaInfoCircle, FaTimes } from "react-icons/fa";
 
 /**
  * Toast Component

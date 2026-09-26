@@ -1,10 +1,10 @@
 // src/features/auth/pages/VerifyResetOtpPage.jsx
-import React, { useState, useRef, useEffect } from 'react';
-import { useNavigate, useLocation, Link } from 'react-router-dom';
-import { FaShieldAlt, FaArrowLeft, FaRedo } from 'react-icons/fa';
-import { useAuthStore } from '../store/authStore';
-import Button from '@/components/ui/Button';
-import Alert from '@/components/ui/Alert';
+import React, { useState, useRef, useEffect } from "react";
+import { useNavigate, useLocation, Link } from "react-router-dom";
+import { FaShieldAlt, FaArrowLeft, FaRedo } from "react-icons/fa";
+import { useAuthStore } from "../store/authStore";
+import Button from "@/components/ui/Button";
+import Alert from "@/components/ui/Alert";
 
 const VerifyResetOtpPage = () => {
   const [otp, setOtp] = useState(['', '', '', '', '', '']);

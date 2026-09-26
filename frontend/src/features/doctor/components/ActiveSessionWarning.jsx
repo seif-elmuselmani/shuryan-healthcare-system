@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { FaExclamationTriangle, FaTimes, FaArrowRight } from 'react-icons/fa';
-import sessionService from '@/api/services/session.service';
-import { useSessionStore } from '../stores/sessionStore';
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { FaExclamationTriangle, FaTimes, FaArrowRight } from "react-icons/fa";
+import sessionService from "@/api/services/session.service";
+import { useSessionStore } from "../stores/sessionStore";
 
 /**
  * ActiveSessionWarning Component

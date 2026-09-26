@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import {
   FaTimes,
   FaCreditCard,
@@ -6,9 +6,9 @@ import {
   FaMoneyBillWave,
   FaCheckCircle,
   FaSpinner,
-} from 'react-icons/fa';
-import { usePaymentStore } from '../../stores/paymentStore';
-import { PaymentMethod, PaymentType } from '@/api/services/payment.service';
+} from "react-icons/fa";
+import { usePaymentStore } from "../../stores/paymentStore";
+import { PaymentMethod, PaymentType } from "@/api/services/payment.service";
 
 /**
  * PaymentModal - Modal for selecting payment method and initiating payment

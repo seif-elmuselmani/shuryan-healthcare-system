@@ -1,7 +1,7 @@
 import { 
   FaSearch, FaCalendarCheck, FaPrescriptionBottleAlt, 
   FaFlask, FaUser 
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * Patient Navigation Items

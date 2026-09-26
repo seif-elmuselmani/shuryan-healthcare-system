@@ -1,6 +1,6 @@
-import React from 'react';
-import { ThemeProvider } from '@/contexts/ThemeContext';
-import MUIThemeProvider from './MUIThemeProvider';
+import React from "react";
+import { ThemeProvider } from "@/contexts/ThemeContext";
+import MUIThemeProvider from "./MUIThemeProvider";
 
 /**
  * This component wraps all global providers to keep App.jsx clean and maintainable.

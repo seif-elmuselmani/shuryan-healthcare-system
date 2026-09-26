@@ -1,7 +1,7 @@
-import { useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import SessionModal from '../components/SessionModal';
-import DoctorDashboard from './DoctorDashboard';
+import { useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import SessionModal from "../components/SessionModal";
+import DoctorDashboard from "./DoctorDashboard";
 
 /**
  * Session Modal Wrapper

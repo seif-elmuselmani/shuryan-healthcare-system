@@ -1,7 +1,7 @@
-import { create } from 'zustand';
-import { devtools } from 'zustand/middleware';
-import laboratoryService, { respondToOrder } from '../../../api/services/laboratory.service';
-import { LAB_ORDER_STATUS } from '../constants/labConstants';
+import { create } from "zustand";
+import { devtools } from "zustand/middleware";
+import laboratoryService, { respondToOrder } from "../../../api/services/laboratory.service";
+import { LAB_ORDER_STATUS } from "../constants/labConstants";
 
 /**
  * Laboratory Orders Store

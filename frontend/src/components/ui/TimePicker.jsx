@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaClock } from 'react-icons/fa';
+import React from "react";
+import { FaClock } from "react-icons/fa";
 
 /**
  * TimePicker Component

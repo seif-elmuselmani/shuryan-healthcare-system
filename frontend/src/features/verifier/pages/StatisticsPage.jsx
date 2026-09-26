@@ -1,7 +1,7 @@
-import { FaChartLine, FaUserMd, FaPills, FaFlask, FaClock, FaCheckCircle, FaTimesCircle, FaCalendarAlt } from 'react-icons/fa';
-import { VerifierNavbar } from '../components';
-import useVerifier from '../hooks/useVerifier';
-import { APPLICATION_TYPE, TYPE_LABELS } from '../constants/verifierConstants';
+import { FaChartLine, FaUserMd, FaPills, FaFlask, FaClock, FaCheckCircle, FaTimesCircle, FaCalendarAlt } from "react-icons/fa";
+import { VerifierNavbar } from "../components";
+import useVerifier from "../hooks/useVerifier";
+import { APPLICATION_TYPE, TYPE_LABELS } from "../constants/verifierConstants";
 
 /**
  * Statistics Page

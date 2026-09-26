@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react';
-import { FaInbox, FaFlask } from 'react-icons/fa';
-import useVerifier from '../hooks/useVerifier';
+import { useState, useEffect } from "react";
+import { FaInbox, FaFlask } from "react-icons/fa";
+import useVerifier from "../hooks/useVerifier";
 import {
   VerifierNavbar,
   StatusFilter,
   ApplicationCard,
   ApplicationDetailsModal,
-} from '../components';
-import { APPLICATION_TYPE } from '../constants/verifierConstants';
+} from "../components";
+import { APPLICATION_TYPE } from "../constants/verifierConstants";
 
 /**
  * Laboratories Page

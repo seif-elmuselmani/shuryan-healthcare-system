@@ -3,7 +3,7 @@ import {
   FaChartLine,
   FaUsers,
   FaStar,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * Doctor Dashboard Navigation Items

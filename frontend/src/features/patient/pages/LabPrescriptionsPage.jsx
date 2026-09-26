@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { FaFlask, FaSync } from 'react-icons/fa';
-import useLabPrescriptions from '../hooks/useLabPrescriptions';
-import LabPrescriptionCard from '../components/lab/LabPrescriptionCard';
-import LabPrescriptionDetailsModal from '../components/lab/LabPrescriptionDetailsModal';
+import { useState } from "react";
+import { FaFlask, FaSync } from "react-icons/fa";
+import useLabPrescriptions from "../hooks/useLabPrescriptions";
+import LabPrescriptionCard from "../components/lab/LabPrescriptionCard";
+import LabPrescriptionDetailsModal from "../components/lab/LabPrescriptionDetailsModal";
 
 const LabPrescriptionsPage = () => {
   const { labPrescriptions, loading, error, fetchLabPrescriptions } = useLabPrescriptions();

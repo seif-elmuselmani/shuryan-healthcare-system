@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { FaTimes, FaExclamationTriangle } from 'react-icons/fa';
+import { useState } from "react";
+import { FaTimes, FaExclamationTriangle } from "react-icons/fa";
 
 /**
  * Cancel Appointment Modal

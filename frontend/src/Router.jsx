@@ -1,10 +1,10 @@
 // src/Router.jsx
-import React, { lazy, Suspense } from 'react';
-import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
-import { MainLayout, AuthLayout, PatientLayout, DoctorLayout, PharmacyLayout, LaboratoryLayout } from '@/components/layout';
-import { ProtectedRoute } from '@/features/auth';
-import { AppLoader } from '@/components/common';
-import ScrollToTop from '@/components/common/ScrollToTop';
+import React, { lazy, Suspense } from "react";
+import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
+import { MainLayout, AuthLayout, PatientLayout, DoctorLayout, PharmacyLayout, LaboratoryLayout } from "@/components/layout";
+import { ProtectedRoute } from "@/features/auth";
+import { AppLoader } from "@/components/common";
+import ScrollToTop from "@/components/common/ScrollToTop";
 
 // ==========================================
 // Lazy Loading for Better Performance

@@ -1,10 +1,10 @@
-import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { FaUsers, FaSearch, FaTimes, FaFilter, FaSort, FaChevronDown, FaCheck } from 'react-icons/fa';
-import { usePatients } from '../hooks/usePatients';
-import PatientCard from '../components/PatientCard';
-import PrescriptionsListModal from '../components/PrescriptionsListModal';
-import LabResultsModal from '../components/LabResultsModal';
-import MedicalRecordModal from '../components/MedicalRecordModal';
+import React, { useState, useRef, useEffect, useCallback } from "react";
+import { FaUsers, FaSearch, FaTimes, FaFilter, FaSort, FaChevronDown, FaCheck } from "react-icons/fa";
+import { usePatients } from "../hooks/usePatients";
+import PatientCard from "../components/PatientCard";
+import PrescriptionsListModal from "../components/PrescriptionsListModal";
+import LabResultsModal from "../components/LabResultsModal";
+import MedicalRecordModal from "../components/MedicalRecordModal";
 
 /**
  * PatientsPage Component

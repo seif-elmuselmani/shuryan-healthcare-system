@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   FaTimes,
   FaCheck,
@@ -13,10 +13,10 @@ import {
   FaUserMd,
   FaHospital,
   FaTimesCircle
-} from 'react-icons/fa';
-import useOrders from '../hooks/useOrders';
-import { MEDICATION_UNITS } from '../data/mockData';
-import { getPrescriptionDetails } from '../../../api/services/pharmacy.service';
+} from "react-icons/fa";
+import useOrders from "../hooks/useOrders";
+import { MEDICATION_UNITS } from "../data/mockData";
+import { getPrescriptionDetails } from "../../../api/services/pharmacy.service";
 
 /**
  * Improved Prescription Modal Component

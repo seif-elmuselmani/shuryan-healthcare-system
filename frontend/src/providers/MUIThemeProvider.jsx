@@ -2,7 +2,7 @@ import { CacheProvider } from "@emotion/react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import stylisRTLPlugin from "@mui/stylis-plugin-rtl";
 import { prefixer } from "stylis";
-import createCache from '@emotion/cache';
+import createCache from "@emotion/cache";
 
 const theme = createTheme({
     direction: 'rtl',

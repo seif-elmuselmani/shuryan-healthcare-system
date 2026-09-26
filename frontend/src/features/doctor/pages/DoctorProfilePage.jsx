@@ -1,20 +1,20 @@
-import React, { useState, useCallback, useEffect, useRef } from 'react';
-import { useAuthStore } from '@/features/auth';
-import doctorService from '@/api/services/doctor.service';
-import ProfileSidebar from '../components/ProfileSidebar';
-import PersonalInfoSection from '../components/PersonalInfoSection.jsx';
-import ProfessionalInfoSection from '../components/ProfessionalInfoSection';
-import ClinicInfoSection from '../components/ClinicInfoSection';
-import ServicesSection from '../components/ServicesSection';
-import AppointmentSection from '../components/AppointmentSection';
-import PartnerSection from '../components/PartnerSection';
+import React, { useState, useCallback, useEffect, useRef } from "react";
+import { useAuthStore } from "@/features/auth";
+import doctorService from "@/api/services/doctor.service";
+import ProfileSidebar from "../components/ProfileSidebar";
+import PersonalInfoSection from "../components/PersonalInfoSection.jsx";
+import ProfessionalInfoSection from "../components/ProfessionalInfoSection";
+import ClinicInfoSection from "../components/ClinicInfoSection";
+import ServicesSection from "../components/ServicesSection";
+import AppointmentSection from "../components/AppointmentSection";
+import PartnerSection from "../components/PartnerSection";
 import { 
   mapGenderToArabic, 
   mapGenderToNumber, 
   SPECIALTIES,
   getDocumentTypeFromFieldName 
-} from '@/utils/constants';
-import { DOCUMENT_STATUS, DOCUMENT_STATUS_LABELS } from '@/features/verifier/constants/verifierConstants';
+} from "@/utils/constants";
+import { DOCUMENT_STATUS, DOCUMENT_STATUS_LABELS } from "@/features/verifier/constants/verifierConstants";
 
 // Utility functions
 const formatDateFromISO = (isoDate) => {

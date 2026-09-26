@@ -1,11 +1,11 @@
-import { create } from 'zustand';
-import { devtools, persist } from 'zustand/middleware';
-import verifierService from '@/api/services/verifier.service';
+import { create } from "zustand";
+import { devtools, persist } from "zustand/middleware";
+import verifierService from "@/api/services/verifier.service";
 import {
   APPLICATION_STATUS,
   APPLICATION_TYPE,
   DOCUMENT_STATUS,
-} from '../constants/verifierConstants';
+} from "../constants/verifierConstants";
 
 /**
  * Verifier Store - Zustand State Management

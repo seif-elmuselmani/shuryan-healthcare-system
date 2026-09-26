@@ -1,12 +1,12 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import {
   UserIcon,
   ArrowRightOnRectangleIcon,
   Cog6ToothIcon,
-} from '@heroicons/react/24/outline';
-import { useAuth } from '@features/auth';
-import { useAuthStore } from '@/features/auth/store/authStore';
+} from "@heroicons/react/24/outline";
+import { useAuth } from "@features/auth";
+import { useAuthStore } from "@/features/auth/store/authStore";
 
 /**
  * Profile Dropdown Component - Patient

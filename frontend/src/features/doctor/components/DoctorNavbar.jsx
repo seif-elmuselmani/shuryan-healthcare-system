@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from "react";
 import {
   NavbarLogo,
   NavbarLinks,
   ProfileDropdown,
   MobileMenu,
-} from './navbar';
+} from "./navbar";
 
 /**
  * Doctor Dashboard Navbar Component

@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { useSessionManager } from '../hooks/useSessionManager';
+import { useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import { useSessionManager } from "../hooks/useSessionManager";
 
 /**
  * Session Dashboard Page - Clean Skeleton

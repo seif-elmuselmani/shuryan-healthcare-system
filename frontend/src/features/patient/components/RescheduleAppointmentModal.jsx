@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react';
-import { FaTimes, FaCalendarAlt } from 'react-icons/fa';
-import { useBooking } from '../hooks/useBooking';
-import { useBookingStore } from '../stores/bookingStore';
-import DatePicker from './booking/DatePicker';
-import TimeSlotPicker from './booking/TimeSlotPicker';
+import { useState, useEffect } from "react";
+import { FaTimes, FaCalendarAlt } from "react-icons/fa";
+import { useBooking } from "../hooks/useBooking";
+import { useBookingStore } from "../stores/bookingStore";
+import DatePicker from "./booking/DatePicker";
+import TimeSlotPicker from "./booking/TimeSlotPicker";
 
 /**
  * Reschedule Appointment Modal

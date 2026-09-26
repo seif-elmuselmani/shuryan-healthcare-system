@@ -1,6 +1,6 @@
-import { create } from 'zustand';
-import { devtools } from 'zustand/middleware';
-import pharmacyService, { respondToOrder } from '../../../api/services/pharmacy.service';
+import { create } from "zustand";
+import { devtools } from "zustand/middleware";
+import pharmacyService, { respondToOrder } from "../../../api/services/pharmacy.service";
 
 /**
  * Pharmacy Orders Store

@@ -1,4 +1,4 @@
-import { FaHome, FaFlask, FaUser, FaMicroscope } from 'react-icons/fa';
+import { FaHome, FaFlask, FaUser, FaMicroscope } from "react-icons/fa";
 
 /**
  * Laboratory Navigation Items

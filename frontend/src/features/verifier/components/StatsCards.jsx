@@ -1,4 +1,4 @@
-import { FaFileAlt, FaEye, FaCheckCircle, FaUserMd, FaPills, FaFlask } from 'react-icons/fa';
+import { FaFileAlt, FaEye, FaCheckCircle, FaUserMd, FaPills, FaFlask } from "react-icons/fa";
 
 /**
  * Stats Cards Component

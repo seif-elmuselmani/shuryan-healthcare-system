@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { FaTimes, FaCreditCard, FaMobileAlt, FaMoneyBillWave, FaShoppingCart } from 'react-icons/fa';
-import patientService from '@/api/services/patient.service';
+import React, { useState } from "react";
+import { FaTimes, FaCreditCard, FaMobileAlt, FaMoneyBillWave, FaShoppingCart } from "react-icons/fa";
+import patientService from "@/api/services/patient.service";
 
 /**
  * PharmacyPaymentModal Component

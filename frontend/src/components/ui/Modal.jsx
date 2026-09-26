@@ -1,6 +1,6 @@
 // src/components/ui/Modal.jsx
-import React, { useEffect } from 'react';
-import { FaTimes } from 'react-icons/fa';
+import React, { useEffect } from "react";
+import { FaTimes } from "react-icons/fa";
 
 const Modal = ({ 
   isOpen, 

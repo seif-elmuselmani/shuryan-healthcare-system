@@ -1,6 +1,6 @@
 // src/hooks/useTranslation.js
-import { useState, useEffect } from 'react';
-import { t, getCurrentLocale, setCurrentLocale } from '@/config/i18n';
+import { useState, useEffect } from "react";
+import { t, getCurrentLocale, setCurrentLocale } from "@/config/i18n";
 
 /**
  * Custom hook for translations

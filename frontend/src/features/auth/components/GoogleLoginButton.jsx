@@ -1,12 +1,12 @@
 // src/features/auth/components/GoogleLoginButton.jsx
-import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { GoogleLogin, GoogleOAuthProvider } from '@react-oauth/google';
-import { useAuthStore } from '../store/authStore';
-import authService from '@/api/services/auth.service';
-import { GOOGLE_CONFIG, isGoogleConfigured } from '@/utils/constants';
-import { useToast } from '@/hooks';
-import Button from '@/components/ui/Button';
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import { GoogleLogin, GoogleOAuthProvider } from "@react-oauth/google";
+import { useAuthStore } from "../store/authStore";
+import authService from "@/api/services/auth.service";
+import { GOOGLE_CONFIG, isGoogleConfigured } from "@/utils/constants";
+import { useToast } from "@/hooks";
+import Button from "@/components/ui/Button";
 
 const GoogleLoginButton = ({ userType = 'patient' }) => { // eslint-disable-line no-unused-vars
   const [loading, setLoading] = useState(false);

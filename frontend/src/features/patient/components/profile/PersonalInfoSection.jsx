@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { usePatientProfile } from '../../hooks/usePatientProfile';
-import { EGYPTIAN_GOVERNORATES, GENDER_OPTIONS } from '@/utils/constants';
-import MapPicker from '@/components/common/MapPicker';
-import '@/styles/leaflet-custom.css';
+import React, { useState, useEffect, useRef } from "react";
+import { usePatientProfile } from "../../hooks/usePatientProfile";
+import { EGYPTIAN_GOVERNORATES, GENDER_OPTIONS } from "@/utils/constants";
+import MapPicker from "@/components/common/MapPicker";
+import "@/styles/leaflet-custom.css";
 import {
   FaUser,
   FaEnvelope,
@@ -16,7 +16,7 @@ import {
   FaCalendar,
   FaGlobeAmericas,
   FaSpinner,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * Personal Info Section Component

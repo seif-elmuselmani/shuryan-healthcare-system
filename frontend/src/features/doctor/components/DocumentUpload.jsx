@@ -1,10 +1,10 @@
-import React from 'react';
-import { FaUpload, FaFileImage, FaTimes } from 'react-icons/fa';
+import React from "react";
+import { FaUpload, FaFileImage, FaTimes } from "react-icons/fa";
 import { 
   DOCUMENT_STATUS, 
   DOCUMENT_STATUS_LABELS, 
   DOCUMENT_STATUS_COLORS 
-} from '@/features/verifier/constants/verifierConstants';
+} from "@/features/verifier/constants/verifierConstants";
 
 /**
  * DocumentUpload Component

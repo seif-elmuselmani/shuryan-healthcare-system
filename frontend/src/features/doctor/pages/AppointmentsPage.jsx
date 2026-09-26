@@ -1,15 +1,15 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 import { 
   FaCalendarAlt, FaFilter, FaSearch, FaTimes, FaChevronDown, 
   FaCheck, FaClock, FaCalendarDay, FaChartLine, FaChevronLeft, FaChevronRight,
   FaHourglassHalf, FaPlay, FaUserCheck, FaUserTimes, FaBan
-} from 'react-icons/fa';
-import AppointmentCard from '../components/AppointmentCard';
-import ActiveSessionWarning from '../components/ActiveSessionWarning';
-import SessionModal from '../components/SessionModal';
-import { useAllAppointments } from '../hooks/useAllAppointments'; // ✅ Changed from useTodayAppointments
-import { useSessionManager } from '../hooks/useSessionManager';
-import { isAppointmentCompleted } from '@/utils/appointmentStatus';
+} from "react-icons/fa";
+import AppointmentCard from "../components/AppointmentCard";
+import ActiveSessionWarning from "../components/ActiveSessionWarning";
+import SessionModal from "../components/SessionModal";
+import { useAllAppointments } from "../hooks/useAllAppointments"; // ✅ Changed from useTodayAppointments
+import { useSessionManager } from "../hooks/useSessionManager";
+import { isAppointmentCompleted } from "@/utils/appointmentStatus";
 
 /**
  * AppointmentsPage - Premium Modern Design

@@ -1,11 +1,11 @@
-import { useState, useEffect } from 'react';
-import doctorService from '@/api/services/doctor.service';
+import { useState, useEffect } from "react";
+import doctorService from "@/api/services/doctor.service";
 import { 
   FaCalendarAlt, 
   FaUsers, 
   FaStar, 
   FaDollarSign 
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * Custom Hook for Doctor Dashboard Statistics

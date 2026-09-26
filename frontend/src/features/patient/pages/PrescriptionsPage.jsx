@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   FaEye, FaShoppingCart, FaUserMd, FaCalendarAlt,
   FaStethoscope, FaHashtag, FaExclamationCircle, FaFileAlt, FaInfoCircle, FaPrescriptionBottleAlt, FaClipboardList
-} from 'react-icons/fa';
-import PrescriptionDetailsModal from '../../doctor/components/PrescriptionDetailsModal';
-import OrderPrescriptionModal from '../components/OrderPrescriptionModal';
-import PharmacyReportsModal from '../components/PharmacyReportsModal';
-import { formatDate } from '@/utils/helpers';
-import useAuth from '../../auth/hooks/useAuth';
-import patientService from '@/api/services/patient.service';
+} from "react-icons/fa";
+import PrescriptionDetailsModal from "../../doctor/components/PrescriptionDetailsModal";
+import OrderPrescriptionModal from "../components/OrderPrescriptionModal";
+import PharmacyReportsModal from "../components/PharmacyReportsModal";
+import { formatDate } from "@/utils/helpers";
+import useAuth from "../../auth/hooks/useAuth";
+import patientService from "@/api/services/patient.service";
 
 /**
  * PrescriptionsPage Component

@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
-import useLabOrdersStore from '../stores/labOrdersStore';
-import { LAB_ORDER_STATUS, LAB_STATUS_CONFIG } from '../constants/labConstants';
+import { useEffect } from "react";
+import useLabOrdersStore from "../stores/labOrdersStore";
+import { LAB_ORDER_STATUS, LAB_STATUS_CONFIG } from "../constants/labConstants";
 
 /**
  * Custom hook for laboratory orders operations

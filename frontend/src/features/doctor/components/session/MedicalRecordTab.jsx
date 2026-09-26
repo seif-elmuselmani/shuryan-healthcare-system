@@ -1,4 +1,4 @@
-import { FaNotesMedical, FaPrescriptionBottleAlt, FaCalendarAlt, FaAllergies, FaHeartbeat, FaProcedures } from 'react-icons/fa';
+import { FaNotesMedical, FaPrescriptionBottleAlt, FaCalendarAlt, FaAllergies, FaHeartbeat, FaProcedures } from "react-icons/fa";
 
 const MedicalRecordTab = ({ patientMedicalRecord, loading, onFetchMedicalRecord }) => {
   if (loading) {

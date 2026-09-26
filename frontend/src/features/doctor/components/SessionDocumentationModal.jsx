@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { 
   FaTimes, FaNotesMedical, FaPrint, FaCalendarAlt,
   FaUser, FaFileAlt, FaStethoscope, FaClipboardList,
   FaHeartbeat, FaDiagnoses, FaTasks, FaClock
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * SessionDocumentationModal Component - Premium Design

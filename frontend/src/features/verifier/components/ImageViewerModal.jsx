@@ -1,5 +1,5 @@
-import React from 'react';
-import { FaTimes, FaExpand, FaCompress } from 'react-icons/fa';
+import React from "react";
+import { FaTimes, FaExpand, FaCompress } from "react-icons/fa";
 
 /**
  * Image Viewer Modal Component

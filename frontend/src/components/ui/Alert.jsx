@@ -1,6 +1,6 @@
 // src/components/ui/Alert.jsx
-import React from 'react';
-import { FaCheckCircle, FaExclamationCircle, FaInfoCircle, FaExclamationTriangle } from 'react-icons/fa';
+import React from "react";
+import { FaCheckCircle, FaExclamationCircle, FaInfoCircle, FaExclamationTriangle } from "react-icons/fa";
 
 const Alert = ({ children, variant = 'info', className = '' }) => {
   const variants = {

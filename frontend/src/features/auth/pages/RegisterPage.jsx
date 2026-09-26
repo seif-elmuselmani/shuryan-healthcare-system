@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
-import * as yup from 'yup';
+import React, { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
 import { 
   User, 
   Stethoscope, 
@@ -18,15 +18,15 @@ import {
   AlertCircle,
   Building2,
   Lock
-} from 'lucide-react';
-import authService from '@/api/services/auth.service';
-import { SPECIALTIES } from '@/utils/constants';
-import DoctorRegisterImg from '@/assets/DoctorRegister.jpg';
-import PatientRegisterImg from '@/assets/PatientRegister.jpg';
-import LaboratoryRegisterImg from '@/assets/LaborayoryRegister.jpg';
-import PharmacyRegisterImg from '@/assets/PharmacyRegister.jpg';
-import LogoIcon from '@/assets/LogoIcon.png';
-import GoogleLoginButton from '../components/GoogleLoginButton';
+} from "lucide-react";
+import authService from "@/api/services/auth.service";
+import { SPECIALTIES } from "@/utils/constants";
+import DoctorRegisterImg from "@/assets/DoctorRegister.jpg";
+import PatientRegisterImg from "@/assets/PatientRegister.jpg";
+import LaboratoryRegisterImg from "@/assets/LaborayoryRegister.jpg";
+import PharmacyRegisterImg from "@/assets/PharmacyRegister.jpg";
+import LogoIcon from "@/assets/LogoIcon.png";
+import GoogleLoginButton from "../components/GoogleLoginButton";
 
 // Validation Schemas
 const patientSchema = yup.object().shape({

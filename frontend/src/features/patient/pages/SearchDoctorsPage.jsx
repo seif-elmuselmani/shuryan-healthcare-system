@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   FaSearch, FaTimes, FaChevronLeft, FaChevronRight
-} from 'react-icons/fa';
-import FilterChips from '../components/FilterChips';
-import DashboardFooter from '@/features/doctor/components/DashboardFooter';
-import DoctorCard from '../components/DoctorCard';
-import DoctorDetailsModal from '../components/DoctorDetailsModal';
-import BookingModal from '../components/booking/BookingModal';
-import { useDoctors } from '../hooks/useDoctors';
+} from "react-icons/fa";
+import FilterChips from "../components/FilterChips";
+import DashboardFooter from "@/features/doctor/components/DashboardFooter";
+import DoctorCard from "../components/DoctorCard";
+import DoctorDetailsModal from "../components/DoctorDetailsModal";
+import BookingModal from "../components/booking/BookingModal";
+import { useDoctors } from "../hooks/useDoctors";
 
 /**
  * SearchDoctorsPage Component - Main Patient Dashboard

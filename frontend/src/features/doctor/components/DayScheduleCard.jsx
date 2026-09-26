@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { FaToggleOn, FaToggleOff } from 'react-icons/fa';
+import React from "react";
+import PropTypes from "prop-types";
+import { FaToggleOn, FaToggleOff } from "react-icons/fa";
 
 /**
  * DayScheduleCard Component - Reusable day schedule card

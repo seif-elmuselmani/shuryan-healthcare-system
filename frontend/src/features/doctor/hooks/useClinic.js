@@ -1,5 +1,5 @@
-import { useEffect, useCallback } from 'react';
-import { useClinicStore } from '../stores/clinicStore';
+import { useEffect, useCallback } from "react";
+import { useClinicStore } from "../stores/clinicStore";
 
 /**
  * Custom hook for clinic management

@@ -10,7 +10,7 @@ import {
   FaTimesCircle,
   FaHome,
   FaBuilding
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * Lab Order Status Enum

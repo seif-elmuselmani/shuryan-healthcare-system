@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { 
   FaTimes, 
   FaFilePrescription, 
@@ -10,11 +10,11 @@ import {
   FaPlus,
   FaStore,
   FaPills
-} from 'react-icons/fa';
-import NearbyPharmaciesView from './NearbyPharmaciesView';
-import PharmacyReportModal from './PharmacyReportModal';
-import usePharmacy from '../hooks/usePharmacy';
-import patientService from '../../../api/services/patient.service';
+} from "react-icons/fa";
+import NearbyPharmaciesView from "./NearbyPharmaciesView";
+import PharmacyReportModal from "./PharmacyReportModal";
+import usePharmacy from "../hooks/usePharmacy";
+import patientService from "../../../api/services/patient.service";
 
 /**
  * OrderPrescriptionModal Component

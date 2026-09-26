@@ -1,5 +1,5 @@
-import { handleApiError } from './errorHandler.js';
-import { VALIDATION } from './constants.js';
+import { handleApiError } from "./errorHandler.js";
+import { VALIDATION } from "./constants.js";
 
 // Use formatDateArabic from timeFormatter.js for Arabic dates
 // Keep this for custom format patterns

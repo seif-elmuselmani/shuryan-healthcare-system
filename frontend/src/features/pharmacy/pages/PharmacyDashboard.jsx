@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from "react";
 import {
   FaShoppingCart,
   FaCheckCircle,
@@ -11,12 +11,12 @@ import {
   FaBox,
   FaTruck,
   FaCheck
-} from 'react-icons/fa';
-import usePharmacyStatsStore from '../stores/pharmacyStatsStore';
-import useOrders from '../hooks/useOrders';
-import PrescriptionModal from '../components/PrescriptionModal_v2';
-import { formatDate } from '../../../utils/helpers';
-import { updateOrderStatus as updateOrderStatusAPI } from '../../../api/services/pharmacy.service';
+} from "react-icons/fa";
+import usePharmacyStatsStore from "../stores/pharmacyStatsStore";
+import useOrders from "../hooks/useOrders";
+import PrescriptionModal from "../components/PrescriptionModal_v2";
+import { formatDate } from "../../../utils/helpers";
+import { updateOrderStatus as updateOrderStatusAPI } from "../../../api/services/pharmacy.service";
 
 /**
  * Pharmacy Dashboard - Main Page

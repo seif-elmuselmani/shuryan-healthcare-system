@@ -1,14 +1,14 @@
-import { useState, useEffect } from 'react';
-import { FaInbox, FaUserMd } from 'react-icons/fa';
-import useVerifier from '../hooks/useVerifier';
+import { useState, useEffect } from "react";
+import { FaInbox, FaUserMd } from "react-icons/fa";
+import useVerifier from "../hooks/useVerifier";
 import {
   VerifierNavbar,
   StatsCards,
   StatusFilter,
   ApplicationCard,
   ApplicationDetailsModal,
-} from '../components';
-import { APPLICATION_TYPE } from '../constants/verifierConstants';
+} from "../components";
+import { APPLICATION_TYPE } from "../constants/verifierConstants";
 
 /**
  * Doctors Page

@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
-import { FaTimesCircle, FaSpinner, FaHome, FaRedo } from 'react-icons/fa';
-import { usePaymentStore } from '../stores/paymentStore';
-import { getPaymentStatusName } from '@/api/services/payment.service';
+import React, { useEffect, useState } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
+import { FaTimesCircle, FaSpinner, FaHome, FaRedo } from "react-icons/fa";
+import { usePaymentStore } from "../stores/paymentStore";
+import { getPaymentStatusName } from "@/api/services/payment.service";
 
 /**
  * PaymentFailedPage - Callback page after failed payment

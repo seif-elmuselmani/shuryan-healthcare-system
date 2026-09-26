@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { 
   FaTimes, 
   FaCheck, 
@@ -9,8 +9,8 @@ import {
   FaStickyNote,
   FaPlus,
   FaTrash
-} from 'react-icons/fa';
-import useOrders from '../hooks/useOrders';
+} from "react-icons/fa";
+import useOrders from "../hooks/useOrders";
 
 /**
  * OrderResponseModal Component

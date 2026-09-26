@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { FaUserMd, FaEnvelope, FaPhone } from 'react-icons/fa';
-import { Combobox, ComboboxLabel, ComboboxOption, Field } from '@/components/common/Combobox';
-import CircularProfileImage from '@/components/common/CircularProfileImage';
-import { GENDER_OPTIONS } from '@/utils/constants';
+import React from "react";
+import PropTypes from "prop-types";
+import { FaUserMd, FaEnvelope, FaPhone } from "react-icons/fa";
+import { Combobox, ComboboxLabel, ComboboxOption, Field } from "@/components/common/Combobox";
+import CircularProfileImage from "@/components/common/CircularProfileImage";
+import { GENDER_OPTIONS } from "@/utils/constants";
 
 const PersonalInfoSection = ({ 
   formData,

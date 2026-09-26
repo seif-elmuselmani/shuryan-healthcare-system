@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import { 
   FaTimes, FaStar, FaUser, FaClock, FaHeart, FaComments, 
   FaBroom, FaDollarSign, FaCheckCircle, FaCalendar
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * ReviewDetailsModal - Premium Modal for Review Details

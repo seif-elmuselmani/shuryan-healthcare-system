@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import { 
   FaCalendarCheck, 
   FaSearch, 
@@ -7,11 +7,11 @@ import {
   FaTimesCircle,
   FaHourglassHalf,
   FaHistory
-} from 'react-icons/fa';
-import PatientAppointmentCard from '../components/PatientAppointmentCard';
-import CancelAppointmentModal from '../components/CancelAppointmentModal';
-import RescheduleAppointmentModal from '../components/RescheduleAppointmentModal';
-import usePatientAppointments from '../hooks/usePatientAppointments';
+} from "react-icons/fa";
+import PatientAppointmentCard from "../components/PatientAppointmentCard";
+import CancelAppointmentModal from "../components/CancelAppointmentModal";
+import RescheduleAppointmentModal from "../components/RescheduleAppointmentModal";
+import usePatientAppointments from "../hooks/usePatientAppointments";
 
 /**
  * Patient Appointments Page

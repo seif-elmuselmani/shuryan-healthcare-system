@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { FaCalendarAlt, FaPlay, FaFilter, FaClock, FaChevronDown, FaCheck, FaSpinner, FaArrowRight } from 'react-icons/fa';
+import React, { useState, useRef, useEffect } from "react";
+import { FaCalendarAlt, FaPlay, FaFilter, FaClock, FaChevronDown, FaCheck, FaSpinner, FaArrowRight } from "react-icons/fa";
 
 /**
  * Today's Appointments Component

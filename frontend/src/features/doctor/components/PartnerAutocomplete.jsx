@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { 
   Autocomplete, 
   TextField, 
@@ -8,8 +8,8 @@ import {
   Avatar,
   createTheme,
   ThemeProvider
-} from '@mui/material';
-import { FaMapMarkerAlt, FaStar } from 'react-icons/fa';
+} from "@mui/material";
+import { FaMapMarkerAlt, FaStar } from "react-icons/fa";
 
 // Create RTL theme for Arabic support
 const theme = createTheme({

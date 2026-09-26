@@ -1,7 +1,7 @@
-import { useState, useEffect, useRef } from 'react';
-import { FaClock, FaCheckCircle, FaExclamationCircle, FaSpinner } from 'react-icons/fa';
-import TimePicker from '@/components/ui/TimePicker';
-import usePharmacyProfile from '../../hooks/usePharmacyProfile';
+import { useState, useEffect, useRef } from "react";
+import { FaClock, FaCheckCircle, FaExclamationCircle, FaSpinner } from "react-icons/fa";
+import TimePicker from "@/components/ui/TimePicker";
+import usePharmacyProfile from "../../hooks/usePharmacyProfile";
 
 /**
  * WorkingHoursSection Component

@@ -1,15 +1,15 @@
-import React, { useMemo, useState, useEffect } from 'react';
-import DoctorDashboardBody from '../components/DoctorDashboardBody';
-import TodayAppointments from '../components/TodayAppointments';
-import DashboardFooter from '../components/DashboardFooter';
-import SessionModal from '../components/SessionModal';
-import { useDashboardStats } from '../hooks/useDashboardStats';
-import { useTodayAppointments } from '../hooks/useTodayAppointments';
-import { useSessionManager } from '../hooks/useSessionManager';
-import { isAppointmentCompleted } from '@/utils/appointmentStatus';
-import sessionService from '@/api/services/session.service';
-import signalRService from '@/services/signalr.service';
-import useAuth from '@/features/auth/hooks/useAuth';
+import React, { useMemo, useState, useEffect } from "react";
+import DoctorDashboardBody from "../components/DoctorDashboardBody";
+import TodayAppointments from "../components/TodayAppointments";
+import DashboardFooter from "../components/DashboardFooter";
+import SessionModal from "../components/SessionModal";
+import { useDashboardStats } from "../hooks/useDashboardStats";
+import { useTodayAppointments } from "../hooks/useTodayAppointments";
+import { useSessionManager } from "../hooks/useSessionManager";
+import { isAppointmentCompleted } from "@/utils/appointmentStatus";
+import sessionService from "@/api/services/session.service";
+import signalRService from "@/services/signalr.service";
+import useAuth from "@/features/auth/hooks/useAuth";
 
 /**
  * Doctor Dashboard Page

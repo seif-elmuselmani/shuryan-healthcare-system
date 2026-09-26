@@ -1,7 +1,7 @@
 // src/components/layout/DoctorLayout.jsx
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import DoctorNavbar from '@/features/doctor/components/DoctorNavbar';
+import React from "react";
+import { Outlet } from "react-router-dom";
+import DoctorNavbar from "@/features/doctor/components/DoctorNavbar";
 
 /**
  * Doctor Layout Component

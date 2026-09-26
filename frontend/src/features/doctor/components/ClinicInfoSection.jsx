@@ -1,14 +1,14 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { useClinic } from '../hooks/useClinic';
-import { useClinicForm } from '../hooks/useClinicForm';
-import { CLINIC_SERVICES, EGYPTIAN_GOVERNORATES } from '@/utils/constants';
+import React, { useState, useEffect, useRef } from "react";
+import { useClinic } from "../hooks/useClinic";
+import { useClinicForm } from "../hooks/useClinicForm";
+import { CLINIC_SERVICES, EGYPTIAN_GOVERNORATES } from "@/utils/constants";
 import { 
   convertFromPhoneNumbersArray, 
   convertToPhoneNumbersArray,
   PhoneType 
-} from '../utils/phoneHelpers';
-import MapPicker from '@/components/common/MapPicker';
-import '@/styles/leaflet-custom.css';
+} from "../utils/phoneHelpers";
+import MapPicker from "@/components/common/MapPicker";
+import "@/styles/leaflet-custom.css";
 import { 
   FaHospital, 
   FaPhone, 
@@ -19,7 +19,7 @@ import {
   FaBuilding,
   FaGlobeAmericas,
   FaTrash
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * Clinic Info Section Component

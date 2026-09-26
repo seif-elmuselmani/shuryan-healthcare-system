@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
-import { FaFlask, FaMapMarkerAlt, FaClock, FaVial } from 'react-icons/fa';
-import useLaboratoryProfile from '../hooks/useLaboratoryProfile';
-import BasicInfoSection from '../components/profile/BasicInfoSection';
-import AddressSection from '../components/profile/AddressSection';
-import WorkingHoursSection from '../components/profile/WorkingHoursSection';
-import SampleCollectionSection from '../components/profile/SampleCollectionSection';
+import { useState, useEffect } from "react";
+import { FaFlask, FaMapMarkerAlt, FaClock, FaVial } from "react-icons/fa";
+import useLaboratoryProfile from "../hooks/useLaboratoryProfile";
+import BasicInfoSection from "../components/profile/BasicInfoSection";
+import AddressSection from "../components/profile/AddressSection";
+import WorkingHoursSection from "../components/profile/WorkingHoursSection";
+import SampleCollectionSection from "../components/profile/SampleCollectionSection";
 
 /**
  * LaboratoryProfilePage Component

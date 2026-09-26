@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { FaCreditCard, FaSpinner } from 'react-icons/fa';
-import PaymentModal from '../payment/PaymentModal';
-import { usePaymentStore } from '../../stores/paymentStore';
+import React, { useState } from "react";
+import { FaCreditCard, FaSpinner } from "react-icons/fa";
+import PaymentModal from "../payment/PaymentModal";
+import { usePaymentStore } from "../../stores/paymentStore";
 
 /**
  * PharmacyOrderPaymentButton - Button to initiate payment for pharmacy order

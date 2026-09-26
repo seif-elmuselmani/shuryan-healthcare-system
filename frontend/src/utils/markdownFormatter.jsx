@@ -1,4 +1,4 @@
-import { parseMarkdown, splitIntoParagraphs } from './markdownUtils.jsx';
+import { parseMarkdown, splitIntoParagraphs } from "./markdownUtils.jsx";
 
 /**
  * Component لعرض Markdown text

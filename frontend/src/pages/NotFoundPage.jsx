@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { FaHome, FaSearch } from 'react-icons/fa';
-import Button from '@/components/ui/Button';
-import CircleLogo from '@/assets/CircleLogoPNG.png';
-import ArLogoWord from '@/assets/ArLogoWord.png';
+import React from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { FaHome, FaSearch } from "react-icons/fa";
+import Button from "@/components/ui/Button";
+import CircleLogo from "@/assets/CircleLogoPNG.png";
+import ArLogoWord from "@/assets/ArLogoWord.png";
 
 const NotFoundPage = () => {
   const navigate = useNavigate();

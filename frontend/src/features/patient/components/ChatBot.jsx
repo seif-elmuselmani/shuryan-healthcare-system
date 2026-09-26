@@ -1,8 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { FaRobot, FaPaperPlane, FaExclamationTriangle, FaTrash, FaChevronUp } from 'react-icons/fa';
-import { useLocation, useNavigate } from 'react-router-dom';
-import useChat from '../hooks/useChat';
-import { MarkdownText } from '../../../utils/markdownFormatter.jsx';
+import React, { useState, useRef, useEffect } from "react";
+import { FaRobot, FaPaperPlane, FaExclamationTriangle, FaTrash, FaChevronUp } from "react-icons/fa";
+import { useLocation, useNavigate } from "react-router-dom";
+import useChat from "../hooks/useChat";
+import { MarkdownText } from "../../../utils/markdownFormatter.jsx";
 
 /**
  * ChatBot Component - AI Assistant Dropdown (Refactored)

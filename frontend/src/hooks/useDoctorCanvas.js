@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect } from "react";
 
 export const useDoctorCanvas = (canvasRef, doctorsData) => {
   const [doctorImages, setDoctorImages] = useState(Array(6).fill(null));

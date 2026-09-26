@@ -1,5 +1,5 @@
-import { useEffect, useCallback } from 'react';
-import { useAppointmentStore } from '../stores/appointmentStore';
+import { useEffect, useCallback } from "react";
+import { useAppointmentStore } from "../stores/appointmentStore";
 
 /**
  * Custom hook for appointment management

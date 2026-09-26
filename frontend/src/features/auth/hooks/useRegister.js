@@ -1,7 +1,7 @@
 // src/features/auth/hooks/useRegister.js
-import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useAuthStore } from '../store/authStore';
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAuthStore } from "../store/authStore";
 
 const useRegister = () => {
   const [loading, setLoading] = useState(false);

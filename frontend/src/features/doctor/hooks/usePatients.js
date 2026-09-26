@@ -1,5 +1,5 @@
-import { useEffect, useMemo } from 'react';
-import { usePatientsStore } from '../stores/patientsStore';
+import { useEffect, useMemo } from "react";
+import { usePatientsStore } from "../stores/patientsStore";
 
 /**
  * Custom hook for managing patients

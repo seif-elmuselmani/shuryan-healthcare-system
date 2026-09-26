@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { FaTimes, FaPrescriptionBottleAlt, FaPlus, FaTrash } from 'react-icons/fa';
+import { useState } from "react";
+import { FaTimes, FaPrescriptionBottleAlt, FaPlus, FaTrash } from "react-icons/fa";
 
 /**
  * Prescription Form Modal

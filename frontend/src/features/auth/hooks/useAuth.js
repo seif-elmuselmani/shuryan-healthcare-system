@@ -1,5 +1,5 @@
 // src/features/auth/hooks/useAuth.js
-import { useAuthStore } from '../store/authStore';
+import { useAuthStore } from "../store/authStore";
 
 const useAuth = () => {
   const store = useAuthStore();

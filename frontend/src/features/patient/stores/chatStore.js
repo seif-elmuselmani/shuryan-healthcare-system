@@ -1,6 +1,6 @@
-import { create } from 'zustand';
-import { devtools } from 'zustand/middleware';
-import chatService from '@/api/services/chat.service';
+import { create } from "zustand";
+import { devtools } from "zustand/middleware";
+import chatService from "@/api/services/chat.service";
 
 /**
  * Chat Store - Refactored

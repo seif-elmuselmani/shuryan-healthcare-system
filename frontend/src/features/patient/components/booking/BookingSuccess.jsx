@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   FaCheckCircle,
   FaCalendarAlt,
@@ -10,9 +10,9 @@ import {
   FaDownload,
   FaWhatsapp,
   FaExclamationTriangle,
-} from 'react-icons/fa';
-import PaymentModal from '../payment/PaymentModal';
-import { usePaymentStore } from '../../stores/paymentStore';
+} from "react-icons/fa";
+import PaymentModal from "../payment/PaymentModal";
+import { usePaymentStore } from "../../stores/paymentStore";
 
 /**
  * BookingSuccess - Step 6: Booking confirmed and paid successfully

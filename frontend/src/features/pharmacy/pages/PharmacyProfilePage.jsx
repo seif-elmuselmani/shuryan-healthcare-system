@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
-import { FaStore, FaMapMarkerAlt, FaClock, FaTruck } from 'react-icons/fa';
-import usePharmacyProfile from '../hooks/usePharmacyProfile';
-import BasicInfoSection from '../components/profile/BasicInfoSection';
-import AddressSection from '../components/profile/AddressSection';
-import WorkingHoursSection from '../components/profile/WorkingHoursSection';
-import DeliverySection from '../components/profile/DeliverySection';
+import { useState, useEffect } from "react";
+import { FaStore, FaMapMarkerAlt, FaClock, FaTruck } from "react-icons/fa";
+import usePharmacyProfile from "../hooks/usePharmacyProfile";
+import BasicInfoSection from "../components/profile/BasicInfoSection";
+import AddressSection from "../components/profile/AddressSection";
+import WorkingHoursSection from "../components/profile/WorkingHoursSection";
+import DeliverySection from "../components/profile/DeliverySection";
 
 /**
  * PharmacyProfilePage Component

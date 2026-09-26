@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import ArLogoWord from '@/assets/ArLogoWord.png';
+import React from "react";
+import { Link } from "react-router-dom";
+import ArLogoWord from "@/assets/ArLogoWord.png";
 
 /**
  * Navbar Logo Component - Doctor

@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { useBookingStore } from '../stores/bookingStore';
+import { useEffect } from "react";
+import { useBookingStore } from "../stores/bookingStore";
 
 /**
  * Custom hook for appointment booking

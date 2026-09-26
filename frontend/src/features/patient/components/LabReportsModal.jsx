@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   FaTimes, FaEye, FaShoppingCart, FaPhoneAlt, FaMapMarkerAlt,
   FaHashtag, FaClock, FaTimesCircle, FaFileAlt, FaCheckCircle,
   FaExclamationTriangle, FaFlask
-} from 'react-icons/fa';
-import patientService from '@/api/services/patient.service';
+} from "react-icons/fa";
+import patientService from "@/api/services/patient.service";
 
 /**
  * LabReportsModal Component

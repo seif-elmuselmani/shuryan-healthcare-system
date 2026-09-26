@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import { 
   FaTimes, FaStar, FaHeart, FaClock, FaComments, 
   FaBroom, FaDollarSign, FaUser, FaEye, FaReply 
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 /**
  * RatingDetailsModal - عرض تفاصيل التقييمات المتعددة

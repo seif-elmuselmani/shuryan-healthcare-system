@@ -1,7 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { FaFilter, FaChevronDown, FaTimes, FaStar, FaClock } from 'react-icons/fa';
-import { SPECIALTIES, getSpecialtyById, GOVERNORATES } from '@/utils/constants';
-import PriceSlider from './PriceSlider';
+import React, { useState, useRef, useEffect } from "react";
+import { FaFilter, FaChevronDown, FaTimes, FaStar, FaClock } from "react-icons/fa";
+import { SPECIALTIES, getSpecialtyById, GOVERNORATES } from "@/utils/constants";
+import PriceSlider from "./PriceSlider";
 
 /**
  * FilterChips Component - Modern filter chips with popups

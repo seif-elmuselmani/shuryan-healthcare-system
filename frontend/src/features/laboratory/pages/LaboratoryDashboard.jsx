@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   FaFlask,
   FaCheckCircle,
@@ -7,13 +7,13 @@ import {
   FaMoneyBillWave,
   FaCalendarAlt,
   FaMicroscope
-} from 'react-icons/fa';
-import useLabStatsStore from '../stores/labStatsStore';
-import useLabOrders from '../hooks/useLabOrders';
-import { formatDate } from '../../../utils/helpers';
-import { startWork, getOrderDetails } from '../../../api/services/laboratory.service';
-import OrderDetailsModal from '../components/OrderDetailsModal';
-import { LAB_ORDER_STATUS, LAB_STATUS_CONFIG } from '../constants/labConstants';
+} from "react-icons/fa";
+import useLabStatsStore from "../stores/labStatsStore";
+import useLabOrders from "../hooks/useLabOrders";
+import { formatDate } from "../../../utils/helpers";
+import { startWork, getOrderDetails } from "../../../api/services/laboratory.service";
+import OrderDetailsModal from "../components/OrderDetailsModal";
+import { LAB_ORDER_STATUS, LAB_STATUS_CONFIG } from "../constants/labConstants";
 
 /**
  * Laboratory Dashboard - Main Page

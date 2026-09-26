@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import {
   FaTimes,
   FaFileAlt,
@@ -9,10 +9,10 @@ import {
   FaStethoscope,
   FaSearchPlus,
   FaNotesMedical
-} from 'react-icons/fa';
-import apiClient from '../../../api/client';
-import patientService from '../../../api/services/patient.service';
-import { getSpecialtyById } from '@/utils/constants';
+} from "react-icons/fa";
+import apiClient from "../../../api/client";
+import patientService from "../../../api/services/patient.service";
+import { getSpecialtyById } from "@/utils/constants";
 
 /**
  * Appointment Details Modal

@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { DOCTOR_NAV_ITEMS } from '../../constants/navigation';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { DOCTOR_NAV_ITEMS } from "../../constants/navigation";
 
 /**
  * Mobile Menu Component

@@ -1,5 +1,5 @@
-import { create } from 'zustand';
-import { getServices, createService, updateService, deleteService, updateServiceAvailability } from '../../../api/services/laboratory.service';
+import { create } from "zustand";
+import { getServices, createService, updateService, deleteService, updateServiceAvailability } from "../../../api/services/laboratory.service";
 
 /**
  * Laboratory Services Store

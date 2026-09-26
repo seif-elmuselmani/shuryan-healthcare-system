@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
-import { FaBars, FaTimes, FaSignOutAlt, FaUserMd, FaPills, FaFlask, FaHome, FaChartBar } from 'react-icons/fa';
-import { useAuth } from '@/features/auth';
-import { APPLICATION_TYPE, TYPE_LABELS, TYPE_ICONS, VERIFIER_NAV_ITEMS } from '../constants/verifierConstants';
-import CircleLogo from '@/assets/CircleLogoPNG.png';
-import ArLogoWord from '@/assets/ArLogoWord.png';
+import { useState } from "react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
+import { FaBars, FaTimes, FaSignOutAlt, FaUserMd, FaPills, FaFlask, FaHome, FaChartBar } from "react-icons/fa";
+import { useAuth } from "@/features/auth";
+import { APPLICATION_TYPE, TYPE_LABELS, TYPE_ICONS, VERIFIER_NAV_ITEMS } from "../constants/verifierConstants";
+import CircleLogo from "@/assets/CircleLogoPNG.png";
+import ArLogoWord from "@/assets/ArLogoWord.png";
 
 // Icon mapping for tabs
 const TAB_ICON_MAP = {

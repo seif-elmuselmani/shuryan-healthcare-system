@@ -1,4 +1,4 @@
-import { FaExclamationCircle } from 'react-icons/fa';
+import { FaExclamationCircle } from "react-icons/fa";
 
 const ErrorAlert = ({ error, onClear }) => {
   if (!error) return null;

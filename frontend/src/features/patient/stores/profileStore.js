@@ -1,6 +1,6 @@
-import { create } from 'zustand';
-import { devtools, persist } from 'zustand/middleware';
-import patientService from '@/api/services/patient.service';
+import { create } from "zustand";
+import { devtools, persist } from "zustand/middleware";
+import patientService from "@/api/services/patient.service";
 
 /**
  * Patient Profile Store

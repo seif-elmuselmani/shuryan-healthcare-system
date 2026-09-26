@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const HeroImage = new URL('../../assets/images/main.png', import.meta.url).href;
 

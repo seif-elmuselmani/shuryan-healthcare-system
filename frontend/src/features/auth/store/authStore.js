@@ -1,7 +1,7 @@
 // src/features/auth/store/authStore.js
-import { create } from 'zustand';
-import { persist, devtools } from 'zustand/middleware';
-import authService from '@/api/services/auth.service';
+import { create } from "zustand";
+import { persist, devtools } from "zustand/middleware";
+import authService from "@/api/services/auth.service";
 
 export const useAuthStore = create(
   devtools(

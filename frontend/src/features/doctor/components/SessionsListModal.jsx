@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import { 
   FaTimes, FaNotesMedical, FaCalendarAlt, FaClock,
   FaUser, FaFileAlt, FaExclamationCircle, FaCheckCircle
-} from 'react-icons/fa';
-import { usePatientsStore } from '../stores/patientsStore';
-import { formatDate } from '@/utils/helpers';
+} from "react-icons/fa";
+import { usePatientsStore } from "../stores/patientsStore";
+import { formatDate } from "@/utils/helpers";
 
 /**
  * SessionsListModal Component - Premium Design

@@ -1,6 +1,6 @@
-import React from 'react';
-import LoadingSpinner from '@/components/ui/LoadingSpinner';
-import ArLogoWord from '@/assets/ArLogoWord.png';
+import React from "react";
+import LoadingSpinner from "@/components/ui/LoadingSpinner";
+import ArLogoWord from "@/assets/ArLogoWord.png";
 
 const AppLoader = () => {
   return (

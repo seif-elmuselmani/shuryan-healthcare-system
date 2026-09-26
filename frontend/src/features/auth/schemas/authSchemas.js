@@ -1,5 +1,5 @@
 // src/features/auth/schemas/authSchemas.js
-import * as yup from 'yup';
+import * as yup from "yup";
 
 // Login Schema
 export const loginSchema = yup.object().shape({

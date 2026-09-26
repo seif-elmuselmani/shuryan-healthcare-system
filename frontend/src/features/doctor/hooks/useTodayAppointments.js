@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import doctorService from '@/api/services/doctor.service';
+import { useState, useEffect } from "react";
+import doctorService from "@/api/services/doctor.service";
 
 /**
  * Custom Hook for Today's Appointments

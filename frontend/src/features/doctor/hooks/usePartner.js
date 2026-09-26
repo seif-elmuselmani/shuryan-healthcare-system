@@ -1,5 +1,5 @@
-import { useEffect } from 'react';
-import { usePartnerStore } from '../stores/partnerStore';
+import { useEffect } from "react";
+import { usePartnerStore } from "../stores/partnerStore";
 
 /**
  * Custom hook for partner management
